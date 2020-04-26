@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="70342" name-counter="1" event-counter="32387" vca-counter="1">
+<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="70521" name-counter="1" event-counter="32389" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
-    <Port name="MIDI control in" direction="input">
-      <Connection other="QmidiNet:out_1"/>
-    </Port>
+    <Port name="MIDI control in" direction="input"/>
     <Port name="MIDI control out" direction="output"/>
-    <Port name="MMC in" direction="input">
-      <Connection other="QmidiNet:out_2"/>
-    </Port>
+    <Port name="MMC in" direction="input"/>
     <Port name="MMC out" direction="output"/>
     <Port name="MTC in" direction="input"/>
     <Port name="MTC out" direction="output"/>
