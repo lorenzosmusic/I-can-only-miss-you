@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1585628234" tv-usec="939399" name="Region start trim">
-    <StatefulDiffCommand obj-id="39516" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <start from="0" to="2778"/>
-        <length from="5885645" to="5882867"/>
-        <position from="694287" to="697065"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="42" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="664320" y-origin="882">
-        <Selection>
-          <Regions>
-            <Region id="39516"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="64" left-frame="664320" y-origin="882">
-        <Selection>
-          <Regions>
-            <Region id="39516"/>
-          </Regions>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1585628344" tv-usec="881907" name="region drag">
     <StatefulDiffCommand obj-id="29667" type-name="ARDOUR::AudioRegion">
       <Changes>
@@ -517,6 +492,28 @@
           <MIDINotes region-id="55094">
             <note note-id="32049"/>
           </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1587961211" tv-usec="427788" name="move marker">
+    <MementoCommand obj-id="34" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="255" name="session" start="678203" end="6145548" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+      <Locations>
+        <Location id="255" name="session" start="678203" end="6702133" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="42" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="6324" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="255" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="6324" left-frame="0" y-origin="0">
+        <Selection>
+          <Marker id="255" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>

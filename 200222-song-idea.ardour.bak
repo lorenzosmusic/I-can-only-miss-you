@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="70521" name-counter="1" event-counter="32389" vca-counter="1">
+<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="77862" name-counter="1" event-counter="32771" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1029,6 +1029,8 @@
     <CompoundAssociation copy="22756" original="22661"/>
     <CompoundAssociation copy="22765" original="22694"/>
     <CompoundAssociation copy="22783" original="22703"/>
+    <CompoundAssociation copy="28143" original="27936"/>
+    <CompoundAssociation copy="28134" original="28058"/>
     <CompoundAssociation copy="30663" original="29658"/>
     <CompoundAssociation copy="30672" original="29636"/>
     <CompoundAssociation copy="30681" original="29752"/>
@@ -1038,8 +1040,6 @@
     <CompoundAssociation copy="30717" original="30041"/>
     <CompoundAssociation copy="30726" original="30193"/>
     <CompoundAssociation copy="30735" original="30243"/>
-    <CompoundAssociation copy="28143" original="27936"/>
-    <CompoundAssociation copy="28134" original="28058"/>
   </CompoundAssociations>
   <Selection/>
   <Locations>
@@ -9704,7 +9704,7 @@ yoshimi used in the chip bank using Chip Bass</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="671" y-size="510"/>
       <Window name="add-video" visible="0" x-off="0" y-off="199" x-size="800" y-size="462"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="784" y-off="0" x-size="584" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="543" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="844" y-off="389" x-size="342" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -9876,15 +9876,6 @@ yoshimi used in the chip bank using Chip Bass</Comment>
       <Window name="PM-39475-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-39477-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-39478-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-54922" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-54922-54952" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-54922-54954" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-54922-54955" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-54952-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-54954-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-54955-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-54922-55085" visible="0" x-off="806" y-off="0" x-size="541" y-size="117" custom-ui="1"/>
-      <Window name="PM-55085-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
