@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="112358" name-counter="1" event-counter="45316" vca-counter="1">
+<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="120775" name-counter="1" event-counter="47964" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1076,7 +1076,9 @@
     <CompoundAssociation copy="30726" original="30193"/>
     <CompoundAssociation copy="30735" original="30243"/>
   </CompoundAssociations>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="261" control="0" order="1"/>
+  </Selection>
   <Locations>
     <Location id="255" name="session" start="678203" end="6702133" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
   </Locations>
@@ -3433,7 +3435,7 @@ yoshimi used in the chip bank using Chip Bass</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="39448" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="39449" flags="GainLike" value="1"/>
+        <Controllable name="gaincontrol" id="39449" flags="GainLike" value="0.23819975554943085"/>
       </Processor>
       <Processor id="93801" name="GxTubeTremelo" active="1" user-latency="0" type="lv2" unique-id="http://guitarix.sourceforge.net/plugins/gxtubetremelo#tubetremelo" count="2" custom="0">
         <Automation>
