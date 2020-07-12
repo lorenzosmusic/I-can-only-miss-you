@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="286446" name-counter="1" event-counter="212385" vca-counter="1">
+<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="305079" name-counter="1" event-counter="227764" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1524,6 +1524,8 @@
     <Region name="back vocals-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="1861632" position="5206645" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="286045" type="audio" first-edit="nothing" source-0="286034" master-source-0="286034" channels="1"/>
   </Regions>
   <CompoundAssociations>
+    <CompoundAssociation copy="28143" original="27936"/>
+    <CompoundAssociation copy="28134" original="28058"/>
     <CompoundAssociation copy="22729" original="22539"/>
     <CompoundAssociation copy="22738" original="22564"/>
     <CompoundAssociation copy="22774" original="22595"/>
@@ -1531,8 +1533,6 @@
     <CompoundAssociation copy="22756" original="22661"/>
     <CompoundAssociation copy="22765" original="22694"/>
     <CompoundAssociation copy="22783" original="22703"/>
-    <CompoundAssociation copy="28143" original="27936"/>
-    <CompoundAssociation copy="28134" original="28058"/>
     <CompoundAssociation copy="30663" original="29658"/>
     <CompoundAssociation copy="30672" original="29636"/>
     <CompoundAssociation copy="30681" original="29752"/>
@@ -1543,12 +1543,10 @@
     <CompoundAssociation copy="30726" original="30193"/>
     <CompoundAssociation copy="30735" original="30243"/>
   </CompoundAssociations>
-  <Selection>
-    <StripableAutomationControl stripable="230852" control="0" order="17"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="255" name="session" start="227613" end="7084452" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
-    <Location id="129194" name="Loop" start="2958968" end="3869420" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
+    <Location id="129194" name="Loop" start="1507935" end="3000927" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
   <VCAManager/>
@@ -4702,8 +4700,8 @@ yoshimi used in the chip bank using Chip Bass</Comment>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="230862" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="230862" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="230864" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="230859" interpolation-style="Discrete" state="Off"/>
@@ -5041,8 +5039,8 @@ lots of vocal playlist versions available on this</Comment>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="285375" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="285375" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="285377" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="285372" interpolation-style="Discrete" state="Off"/>
@@ -21443,7 +21441,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="vocals-42.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="170710" length="1671466" position="5235097" beat="184" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="285967" type="audio" first-edit="nothing" source-0="285949" master-source-0="285949" channels="1">
+      <Region name="vocals-42.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="170710" length="1671466" position="5235097" beat="184" sync-position="170710" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="285967" type="audio" first-edit="nothing" source-0="285949" master-source-0="285949" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="285968" interpolation-style="Curved" state="Off">
@@ -21569,7 +21567,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="back vocals-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1422581" length="220500" position="6629226" beat="233" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="286053" type="audio" first-edit="nothing" source-0="286034" master-source-0="286034" channels="1">
+      <Region name="back vocals-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1422581" length="220500" position="6629226" beat="233" sync-position="1422581" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="286053" type="audio" first-edit="nothing" source-0="286034" master-source-0="286034" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="286054" interpolation-style="Curved" state="Off">
@@ -25330,7 +25328,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="vocals-21.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5484048" length="913904" position="6152661" beat="216.25" sync-position="5356016" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="285141" type="audio" first-edit="nothing" source-0="267089" master-source-0="267089" channels="1">
+      <Region name="vocals-21.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5484048" length="913904" position="6152661" beat="216.25" sync-position="5484048" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="285141" type="audio" first-edit="nothing" source-0="267089" master-source-0="267089" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="285142" interpolation-style="Curved" state="Off">
@@ -25458,7 +25456,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="vocals-38.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="64016" length="221680" position="1806677" beat="63.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="285783" type="audio" first-edit="nothing" source-0="285765" master-source-0="285765" channels="1">
+      <Region name="vocals-38.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="64016" length="221680" position="1806677" beat="63.5" sync-position="64016" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="285783" type="audio" first-edit="nothing" source-0="285765" master-source-0="285765" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="285784" interpolation-style="Curved" state="Off">
@@ -25489,7 +25487,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="vocals-40.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="49790" length="249218" position="2027177" beat="71.25" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="285864" type="audio" first-edit="nothing" source-0="285846" master-source-0="285846" channels="1">
+      <Region name="vocals-40.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="49790" length="249218" position="2027177" beat="71.25" sync-position="49790" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="285864" type="audio" first-edit="nothing" source-0="285846" master-source-0="285846" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="285865" interpolation-style="Curved" state="Off">
@@ -25595,31 +25593,6 @@ lots of vocal playlist versions available on this</Comment>
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </SelectionExportProfile>
-    <ExportProfile>
-      <ExportTimespan format="Timecode">
-        <Range id="255"/>
-      </ExportTimespan>
-      <ExportChannelConfiguration split="0" channels="2">
-        <Channel number="1">
-          <Port name="Master/audio_out 1"/>
-        </Channel>
-        <Channel number="2">
-          <Port name="Master/audio_out 2"/>
-        </Channel>
-      </ExportChannelConfiguration>
-      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
-      <ExportFilename>
-        <Folder relative="1" path="/export"/>
-        <Field name="label" enabled="1" value="gtr-efct-no-drums"/>
-        <Field name="session" enabled="1"/>
-        <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
-        <Field name="revision" enabled="0"/>
-        <Field name="time" enabled="0" value="T_None"/>
-        <Field name="date" enabled="1" value="D_BEShortY"/>
-      </ExportFilename>
-    </ExportProfile>
-    <ExportRevision revision="1"/>
     <RangeExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="129194"/>
@@ -25644,6 +25617,31 @@ lots of vocal playlist versions available on this</Comment>
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </RangeExportProfile>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="Timecode">
+        <Range id="255"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
+      <ExportFilename>
+        <Folder relative="1" path="/export"/>
+        <Field name="label" enabled="1" value="new-vocals"/>
+        <Field name="session" enabled="1"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="1"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="1" value="D_BEShortY"/>
+      </ExportFilename>
+    </ExportProfile>
     <UI>
       <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="session-options-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -25652,7 +25650,7 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="535" y-off="0" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="651" y-off="321" x-size="617" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -25674,6 +25672,7 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="RPM-158" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-261" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-230852" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-285365" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-691" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-39445" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-92606" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -25725,10 +25724,14 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="PM-17562-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-212033-212047" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-212033-212050" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-212033-286310" visible="0" x-off="667" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-212033-286393" visible="0" x-off="673" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="P-212033-212053" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-212033-212054" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-212047-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-212050-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-286310-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-286393-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-212053-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-212054-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-32069-32100" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -25794,25 +25797,39 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="P-261-292" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-261-291" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-261-14333" visible="0" x-off="555" y-off="0" x-size="471" y-size="205" custom-ui="1"/>
+      <Window name="P-261-286420" visible="0" x-off="673" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="P-261-293" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-261-294" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-292-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-291-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-14333-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-286420-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-293-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-294-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-230852-230883" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-230852-230882" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-230852-266054" visible="0" x-off="435" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
       <Window name="P-230852-266137" visible="0" x-off="443" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
+      <Window name="P-230852-286277" visible="0" x-off="693" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
       <Window name="P-230852-230884" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-230852-230885" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-230883-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-230882-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-266054-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-266137-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-286277-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-230884-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-230885-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-285365-285396" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-285365-285395" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-285365-286248" visible="0" x-off="693" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
+      <Window name="P-285365-285397" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-285365-285398" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-285396-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-285395-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-286248-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-285397-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-285398-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-691-722" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-691-721" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-691-723" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -25877,25 +25894,6 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="PM-47323-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-47325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-47326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-285365" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-285365-285396" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-285365-285395" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-285365-285397" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-285365-285398" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-285396-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-285395-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-285397-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-285398-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-285365-286248" visible="0" x-off="423" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="PM-286248-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-230852-286277" visible="0" x-off="423" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
-      <Window name="PM-286277-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-212033-286310" visible="0" x-off="397" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-286310-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-212033-286393" visible="0" x-off="403" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
-      <Window name="PM-286393-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-261-286420" visible="0" x-off="403" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
-      <Window name="PM-286420-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
