@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="480438" name-counter="1" event-counter="329584" vca-counter="1">
+<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="480509" name-counter="1" event-counter="334839" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -1968,7 +1968,7 @@
     <CompoundAssociation copy="478911" original="478828"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="477319" control="0" order="15"/>
+    <StripableAutomationControl stripable="477319" control="0" order="16"/>
   </Selection>
   <Locations>
     <Location id="255" name="session" start="0" end="8051806" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -5835,7 +5835,7 @@ lots of vocal playlist versions available on this</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="456309" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="456310" flags="GainLike" value="0.56037509441375732"/>
+        <Controllable name="gaincontrol" id="456310" flags="GainLike" value="0.16971926391124725"/>
       </Processor>
       <Processor id="456395" name="Calf Equalizer 5 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer5Band" count="1" custom="0">
         <Automation>
@@ -6017,24 +6017,18 @@ lots of vocal playlist versions available on this</Comment>
         </Automation>
         <Controllable name="trimcontrol" id="477325" flags="GainLike" value="1"/>
       </Processor>
-      <Processor id="477349" name="Amp" active="1" user-latency="0" type="amp">
+      <Processor id="480449" name="Calf Bass Enhancer" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/BassEnhancer" count="1" custom="0">
         <Automation>
-          <AutomationList automation-id="gain" id="477322" interpolation-style="Linear" state="Off"/>
-        </Automation>
-        <Controllable name="gaincontrol" id="477323" flags="GainLike" value="1.3808587789535522"/>
-      </Processor>
-      <Processor id="480216" name="Calf Bass Enhancer" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/BassEnhancer" count="1" custom="0">
-        <Automation>
-          <AutomationList automation-id="parameter-4" id="480217" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-5" id="480219" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-6" id="480221" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-7" id="480223" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-12" id="480225" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-13" id="480227" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-15" id="480229" interpolation-style="Linear" state="Off"/>
-          <AutomationList automation-id="parameter-16" id="480231" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-17" id="480233" interpolation-style="Discrete" state="Off"/>
-          <AutomationList automation-id="parameter-18" id="480235" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="480450" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="480452" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="480454" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="480456" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="480458" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="480460" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="480462" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="480464" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="480466" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="480468" interpolation-style="Linear" state="Off"/>
         </Automation>
         <ConfiguredInput>
           <Channels type="audio" count="1"/>
@@ -6056,26 +6050,32 @@ lots of vocal playlist versions available on this</Comment>
         <ThruMap/>
         <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
           <Port symbol="bypass" value="0"/>
-          <Port symbol="level_in" value="2.7132086753845215"/>
-          <Port symbol="level_out" value="1"/>
-          <Port symbol="amount" value="1"/>
+          <Port symbol="level_in" value="1"/>
+          <Port symbol="level_out" value="1.5411419868469238"/>
+          <Port symbol="amount" value="2.9979991912841797"/>
           <Port symbol="drive" value="8.5"/>
-          <Port symbol="blend" value="0"/>
-          <Port symbol="freq" value="100"/>
+          <Port symbol="blend" value="1.4600000381469727"/>
+          <Port symbol="freq" value="132.74516296386719"/>
           <Port symbol="listen" value="0"/>
           <Port symbol="floor_active" value="0"/>
           <Port symbol="floor" value="20"/>
         </lv2>
-        <Controllable name="Bypass" id="480218" flags="Toggle" value="0" parameter="4" symbol="bypass"/>
-        <Controllable name="Input" id="480220" flags="" value="2.7132086753845215" parameter="5" symbol="level_in"/>
-        <Controllable name="Output" id="480222" flags="" value="1" parameter="6" symbol="level_out"/>
-        <Controllable name="Amount" id="480224" flags="" value="1" parameter="7" symbol="amount"/>
-        <Controllable name="Harmonics" id="480226" flags="" value="8.5" parameter="12" symbol="drive"/>
-        <Controllable name="Blend Harmonics" id="480228" flags="" value="0" parameter="13" symbol="blend"/>
-        <Controllable name="Scope" id="480230" flags="" value="100" parameter="15" symbol="freq"/>
-        <Controllable name="Listen" id="480232" flags="Toggle" value="0" parameter="16" symbol="listen"/>
-        <Controllable name="Floor active" id="480234" flags="Toggle" value="0" parameter="17" symbol="floor_active"/>
-        <Controllable name="Floor" id="480236" flags="" value="20" parameter="18" symbol="floor"/>
+        <Controllable name="Bypass" id="480451" flags="Toggle" value="0" parameter="4" symbol="bypass"/>
+        <Controllable name="Input" id="480453" flags="" value="1" parameter="5" symbol="level_in"/>
+        <Controllable name="Output" id="480455" flags="" value="1.5411419868469238" parameter="6" symbol="level_out"/>
+        <Controllable name="Amount" id="480457" flags="" value="2.9979991912841797" parameter="7" symbol="amount"/>
+        <Controllable name="Harmonics" id="480459" flags="" value="8.5" parameter="12" symbol="drive"/>
+        <Controllable name="Blend Harmonics" id="480461" flags="" value="1.4600000381469727" parameter="13" symbol="blend"/>
+        <Controllable name="Scope" id="480463" flags="" value="132.74516296386719" parameter="15" symbol="freq"/>
+        <Controllable name="Listen" id="480465" flags="Toggle" value="0" parameter="16" symbol="listen"/>
+        <Controllable name="Floor active" id="480467" flags="Toggle" value="0" parameter="17" symbol="floor_active"/>
+        <Controllable name="Floor" id="480469" flags="" value="20" parameter="18" symbol="floor"/>
+      </Processor>
+      <Processor id="477349" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="477322" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="477323" flags="GainLike" value="0.14862984418869019"/>
       </Processor>
       <Processor id="477351" name="meter-Audio" active="1" user-latency="0" type="meter"/>
       <Processor id="477352" name="Bass Low Pick" active="1" user-latency="0" own-input="1" own-output="0" output="Bass Low Pick" type="main-outs" role="Main">
@@ -23595,7 +23595,7 @@ lots of vocal playlist versions available on this</Comment>
       </Region>
     </Playlist>
     <Playlist id="456226" name="Bass Main 1.1" type="audio" orig-track-id="456291" shared-with-ids="" frozen="0" combine-ops="1">
-      <Region name="Bass Main 1-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="682839" length="8164521" position="682839" beat="24" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="2.3070840835571289" id="479994" type="audio" first-edit="nothing" source-0="479975" master-source-0="479975" channels="1">
+      <Region name="Bass Main 1-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="681060" length="8166300" position="681060" beat="23.9375" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="2.3070840835571289" id="479994" type="audio" first-edit="nothing" source-0="479975" master-source-0="479975" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="479995" interpolation-style="Curved" state="Off">
@@ -23783,7 +23783,7 @@ lots of vocal playlist versions available on this</Comment>
       </Region>
     </Playlist>
     <Playlist id="477361" name="Audio.1" type="audio" orig-track-id="477319" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Audio-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8933376" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="480420" type="audio" first-edit="nothing" source-0="480393" master-source-0="480393" channels="1">
+      <Region name="Audio-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="681060" length="8252316" position="681060" beat="23.9375" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="2.0562207698822021" id="480420" type="audio" first-edit="nothing" source-0="480393" master-source-0="480393" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="480421" interpolation-style="Curved" state="Off">
@@ -28300,6 +28300,8 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="PM-477349-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-477351-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-477352-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-477319-480449" visible="0" x-off="0" y-off="67" x-size="751" y-size="372" custom-ui="1"/>
+      <Window name="PM-480449-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -28568,8 +28570,10 @@ lots of vocal playlist versions available on this</Comment>
         </Object>
         <Object id="strip 477319" visible="1" strip-width="Wide">
           <Object id="processor 477349"/>
+          <Object id="processor 480216"/>
+          <Object id="processor 480449"/>
         </Object>
-        <Object id="rtav 477319" height="241" visible="1"/>
+        <Object id="rtav 477319" height="96" visible="1"/>
         <Object id="automation 477323" height="86" visible="0"/>
         <Object id="automation 477325" height="86" visible="0"/>
         <Object id="automation 477319 12/0/0" height="86" visible="0"/>
