@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="580562" name-counter="1" event-counter="363840" vca-counter="1">
+<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="608361" name-counter="1" event-counter="382423" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -213,6 +213,7 @@
     <Source name="Audio-5.wav" type="audio" flags="" id="480393" captured-for="Audio" channel="0" origin="" gain="1"/>
     <Source name="classical L.wav" type="audio" flags="" id="523433" channel="0" origin="" gain="1"/>
     <Source name="classical R.wav" type="audio" flags="" id="523523" channel="0" origin="" gain="1"/>
+    <Source name="MIDI trombone-1.mid" type="midi" flags="Writable,CanRename" id="608187" origin=""/>
   </Sources>
   <Regions>
     <Region name="keys-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="779264" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="234" type="audio" first-edit="nothing" source-0="203" master-source-0="203" channels="1"/>
@@ -1944,9 +1945,9 @@
     <Region name="Audio-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="2248064" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="480379" type="audio" first-edit="nothing" source-0="480352" master-source-0="480352" channels="1"/>
     <Region name="Audio-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8933376" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="480412" type="audio" first-edit="nothing" source-0="480393" master-source-0="480393" channels="1"/>
     <Region name="classical L" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8399175" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="523435" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
-    <Region name="classical L.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="682839" length="7716336" position="682839" beat="24" sync-position="451669" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="523509" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
+    <Region name="classical L.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="682839" length="7716336" position="682839" beat="24" sync-position="682839" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="523509" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
     <Region name="classical R" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8310872" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="523525" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
-    <Region name="classical R.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="681060" length="7629812" position="681060" beat="23.9375" sync-position="451669" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="523599" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
+    <Region name="classical R.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="681060" length="7629812" position="681060" beat="23.9375" sync-position="681060" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="523599" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
     <Region name="rob drums.4 compound-1.69 (1)" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="40899" position="240060" beat="8.4374829931972783" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="75" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="567681" type="audio" first-edit="nothing" source-0="30744" master-source-0="30744" channels="1"/>
     <Region name="unwaltz-beat.2 compound-1.45 (1)" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="113806" position="353867" beat="12.4375" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="53" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="567691" type="audio" first-edit="nothing" source-0="28152" source-1="28154" master-source-0="28152" master-source-1="28154" channels="2"/>
     <Region name="unwaltz-beat.2 compound-1.46 (1)" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="37343" position="227613" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="53" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="567714" type="audio" first-edit="nothing" source-0="28152" source-1="28154" master-source-0="28152" master-source-1="28154" channels="2"/>
@@ -1957,7 +1958,7 @@
     <Region name="classical R.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2247677" length="6063195" position="2247677" beat="79" sync-position="2247677" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="575602" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
     <Region name="classical L.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2274351" length="691730" position="2274351" beat="79.9375" sync-position="2274351" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="575632" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
     <Region name="classical L.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2957190" length="5441985" position="2957190" beat="103.9375" sync-position="2957190" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="575641" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
-    <Region name="classical R.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2272573" length="693508" position="2272573" beat="79.875" sync-position="2247677" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="575659" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
+    <Region name="classical R.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2272573" length="693508" position="2272573" beat="79.875" sync-position="2272573" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="575659" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
     <Region name="classical R.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2958968" length="5351904" position="2958968" beat="104" sync-position="2958968" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="575668" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
     <Region name="classical L.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3869419" length="4529756" position="3869419" beat="136" sync-position="3869419" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="575696" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
     <Region name="classical R.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3871198" length="4439674" position="3871198" beat="136.0625" sync-position="3871198" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="575723" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
@@ -1966,7 +1967,9 @@
     <Region name="classical L.11" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5256435" length="3142740" position="5256435" beat="184.75" sync-position="5256435" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="577472" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
     <Region name="classical R.11" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5256435" length="3054437" position="5256435" beat="184.75" sync-position="5256435" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="577499" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
     <Region name="classical L.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2274351" length="115584" position="2274351" beat="79.9375" sync-position="2274351" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579132" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
+    <Region name="classical L.15" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="576146" position="2388157" beat="83.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579141" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1"/>
     <Region name="classical R.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2272573" length="117362" position="2272573" beat="79.875" sync-position="2272573" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579165" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
+    <Region name="classical R.15" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="576146" position="2388157" beat="83.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579174" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
     <Region name="rob drums.4 compound-1.67" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="28452" length="85354" position="455226" beat="16" sync-position="28452" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="79" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="579404" type="audio" first-edit="nothing" source-0="30744" master-source-0="30744" channels="1"/>
     <Region name="bass-midi-export 1.21" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="270290" length="42679" position="0" beat="0" sync-position="270290" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="22" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="580241" type="audio" first-edit="nothing" source-0="213067" master-source-0="213067" channels="1"/>
     <Region name="bass-midi-export 1.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="270290" length="42679" position="540581" beat="19.000012471655328" sync-position="270290" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="25" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="580251" type="audio" first-edit="nothing" source-0="213067" master-source-0="213067" channels="1"/>
@@ -1974,8 +1977,11 @@
     <Region name="Bass 1.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="497903" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1.4125374555587769" id="580322" type="audio" first-edit="nothing" source-0="455790" master-source-0="455790" channels="1"/>
     <Region name="Bass 1.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="497903" length="7715345" position="497903" beat="17.5" sync-position="497903" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1.4125374555587769" id="580331" type="audio" first-edit="nothing" source-0="455790" master-source-0="455790" channels="1"/>
     <Region name="Bass 1.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="497903" length="56904" position="0" beat="0" sync-position="497903" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1.4125374555587769" id="580356" type="audio" first-edit="nothing" source-0="455790" master-source-0="455790" channels="1"/>
+    <Region name="classical R.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="115585" position="2388157" beat="83.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="607877" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
+    <Region name="classical R.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2505520" length="460561" position="2503742" beat="88" sync-position="2505520" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="607885" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1"/>
   </Regions>
   <CompoundAssociations>
+    <CompoundAssociation copy="28134" original="28058"/>
     <CompoundAssociation copy="30663" original="29658"/>
     <CompoundAssociation copy="30672" original="29636"/>
     <CompoundAssociation copy="30681" original="29752"/>
@@ -1993,16 +1999,17 @@
     <CompoundAssociation copy="22765" original="22694"/>
     <CompoundAssociation copy="22783" original="22703"/>
     <CompoundAssociation copy="28143" original="27936"/>
-    <CompoundAssociation copy="28134" original="28058"/>
     <CompoundAssociation copy="478893" original="478810"/>
     <CompoundAssociation copy="478902" original="478819"/>
     <CompoundAssociation copy="478911" original="478828"/>
     <CompoundAssociation copy="478920" original="478837"/>
     <CompoundAssociation copy="478929" original="478846"/>
   </CompoundAssociations>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="261" control="0" order="23"/>
+  </Selection>
   <Locations>
-    <Location id="255" name="session" start="0" end="8793327" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
+    <Location id="255" name="session" start="199161" end="8793327" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="129194" name="Loop" start="1593291" end="2958969" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
   </Locations>
   <Bundles/>
@@ -2304,7 +2311,7 @@
         <AutomationList automation-id="monitor" id="300" interpolation-style="Discrete" state="Off"/>
       </Automation>
       <Pannable>
-        <Controllable name="pan-azimuth" id="280" flags="" value="0.096153847873210907"/>
+        <Controllable name="pan-azimuth" id="280" flags="" value="0.01923076923076919"/>
         <Controllable name="pan-width" id="284" flags="" value="0"/>
         <Controllable name="pan-elevation" id="282" flags="" value="0"/>
         <Controllable name="pan-frontback" id="286" flags="" value="0"/>
@@ -2422,7 +2429,7 @@
       <Processor id="294" name="keys2" active="1" user-latency="0" own-input="1" own-output="0" output="keys2" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
         <Pannable>
-          <Controllable name="pan-azimuth" id="280" flags="" value="0.096153847873210907"/>
+          <Controllable name="pan-azimuth" id="280" flags="" value="0.01923076923076919"/>
           <Controllable name="pan-width" id="284" flags="" value="0"/>
           <Controllable name="pan-elevation" id="282" flags="" value="0"/>
           <Controllable name="pan-frontback" id="286" flags="" value="0"/>
@@ -2443,7 +2450,7 @@
       <Diskstream flags="Recordable" playlist="keys2.1" name="keys2" id="302" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="691" name="banjo" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="3153361663"/>
+      <PresentationInfo order="22" flags="AudioTrack,OrderSet" color="3153361663"/>
       <Controllable name="solo" id="699" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="705" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="707" flags="Toggle" value="0" solo-safe="0"/>
@@ -2884,7 +2891,7 @@
       <Diskstream flags="Recordable" playlist="drum-vid-441 1.1" name="drum-vid-441 1" id="4190" speed="1" capture-alignment="Automatic" record-safe="0" channels="2"/>
     </Route>
     <Route id="11011" name="rob guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="22" flags="AudioTrack,OrderSet" color="1927664895"/>
+      <PresentationInfo order="21" flags="AudioTrack,OrderSet" color="1927664895"/>
       <Controllable name="solo" id="11019" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="11025" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="11027" flags="Toggle" value="0" solo-safe="0"/>
@@ -3015,7 +3022,7 @@
         <Automation>
           <AutomationList automation-id="gain" id="11108" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="11109" flags="GainLike" value="1"/>
+        <Controllable name="gaincontrol" id="11109" flags="GainLike" value="0.76365041732788086"/>
       </Processor>
       <Processor id="11232" name="Calf Equalizer 8 Band" active="1" user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -4372,7 +4379,7 @@ yoshimi used in the chip bank using Chip Bass</Comment>
       <Diskstream flags="Recordable" playlist="bass-chip-bass-midi-export.1" name="bass-chip-bass-midi-export" id="32350" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="39445" name="eric guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="3853939967"/>
+      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="3853939967"/>
       <Controllable name="solo" id="39453" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="39459" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="39461" flags="Toggle" value="0" solo-safe="0"/>
@@ -4575,7 +4582,7 @@ yoshimi used in the chip bank using Chip Bass</Comment>
       <Diskstream flags="Recordable" playlist="alt-drum.1" name="alt-drum" id="47334" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="92606" name="eric guitar 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="2447738111"/>
+      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="2447738111"/>
       <Controllable name="solo" id="92573" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="92639" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="92640" flags="Toggle" value="0" solo-safe="0"/>
@@ -6272,7 +6279,7 @@ lots of vocal playlist versions available on this</Comment>
       <Diskstream flags="Recordable" playlist="Audio.1" name="Audio" id="477360" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="523445" name="classical L" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="3852910335"/>
+      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="3852910335"/>
       <Controllable name="solo" id="523453" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="523459" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="523461" flags="Toggle" value="0" solo-safe="0"/>
@@ -6287,8 +6294,8 @@ lots of vocal playlist versions available on this</Comment>
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
-      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
-      <Controllable name="mute" id="523455" flags="Toggle,RealTime" value="0"/>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="1"/>
+      <Controllable name="mute" id="523455" flags="Toggle,RealTime" value="1"/>
       <Controllable name="phase" id="523457" flags="Toggle" value="0" phase-invert="0"/>
       <Automation>
         <AutomationList automation-id="solo" id="523452" interpolation-style="Discrete" state="Off"/>
@@ -6549,7 +6556,7 @@ lots of vocal playlist versions available on this</Comment>
       <Diskstream flags="Recordable" playlist="classical L" name="classical L" id="523486" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
     <Route id="523535" name="classical R" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" saved-meter-point="MeterPostFader" mode="Normal">
-      <PresentationInfo order="21" flags="AudioTrack,OrderSet" color="3849491967"/>
+      <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="3849491967"/>
       <Controllable name="solo" id="523543" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="523549" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="523551" flags="Toggle" value="0" solo-safe="0"/>
@@ -9141,7 +9148,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="rob drums.4 compound-1.70 (1)" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="14226" length="7113" position="384097" beat="13.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="75" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="569756" type="audio" first-edit="nothing" source-0="30744" master-source-0="30744" channels="1">
+      <Region name="rob drums.4 compound-1.70 (1)" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="14226" length="7113" position="384097" beat="13.5" sync-position="14226" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="75" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="569756" type="audio" first-edit="nothing" source-0="30744" master-source-0="30744" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="569757" interpolation-style="Curved" state="Off">
@@ -14598,7 +14605,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.342" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1569394" length="165375" position="2263681" beat="79.5625" sync-position="1569394" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192467" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.342" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1569394" length="167154" position="2263681" beat="79.5625" sync-position="1569394" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192467" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="192468" interpolation-style="Curved" state="Off">
@@ -14629,7 +14636,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.109" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="671390" length="227614" position="2503742" beat="88" sync-position="671390" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172867" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.109" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="671390" length="227614" position="2503742" beat="88" sync-position="671390" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172867" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172868" interpolation-style="Curved" state="Off">
@@ -14660,7 +14667,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.110" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="671390" length="227614" position="2731355" beat="96" sync-position="671390" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173823" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.110" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="671390" length="227614" position="2731355" beat="96" sync-position="671390" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173823" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173824" interpolation-style="Curved" state="Off">
@@ -14784,7 +14791,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.310" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3388520" length="241839" position="4538032" beat="159.5" sync-position="3388520" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="421506" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.310" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3388520" length="241839" position="4538032" beat="159.5" sync-position="3388520" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="421506" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="421507" interpolation-style="Curved" state="Off">
@@ -14815,7 +14822,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.203" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="671390" length="227614" position="4779871" beat="168.00000113378684" sync-position="671390" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176263" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.203" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="671390" length="227614" position="4779871" beat="168.00000113378684" sync-position="671390" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176263" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176264" interpolation-style="Curved" state="Off">
@@ -14846,7 +14853,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.224" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="671390" length="227614" position="5007484" beat="176.00000453514738" sync-position="671390" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="13" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176529" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.224" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="671390" length="227614" position="5007484" beat="176.00000453514738" sync-position="671390" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="13" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176529" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176530" interpolation-style="Curved" state="Off">
@@ -16715,7 +16722,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.344" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1567616" length="167153" position="2261903" beat="79.5" sync-position="1567616" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="25" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192486" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.344" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1567616" length="168932" position="2261903" beat="79.5" sync-position="1567616" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="25" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="192486" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="192487" interpolation-style="Curved" state="Off">
@@ -16746,7 +16753,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.97" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="258842" length="7113" position="2547309" beat="89.531268707482994" sync-position="258842" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="49" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172722" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.97" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="258842" length="7113" position="2547309" beat="89.531268707482994" sync-position="258842" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="49" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172722" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172723" interpolation-style="Curved" state="Off">
@@ -16777,7 +16784,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.98" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="274846" length="12448" position="2563313" beat="90.093767573696141" sync-position="274846" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="50" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172731" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.98" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="274846" length="12448" position="2563313" beat="90.093767573696141" sync-position="274846" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="50" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172731" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172732" interpolation-style="Curved" state="Off">
@@ -16808,7 +16815,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.99" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="315745" length="7113" position="2604212" beat="91.531260770975052" sync-position="315745" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="51" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172740" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.99" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="315745" length="7113" position="2604212" beat="91.531260770975052" sync-position="315745" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="51" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172740" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172741" interpolation-style="Curved" state="Off">
@@ -16839,7 +16846,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.100" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="329971" length="14226" position="2618438" beat="92.031267573696141" sync-position="329971" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="52" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172749" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.100" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="329971" length="14226" position="2618438" beat="92.031267573696141" sync-position="329971" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="52" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172749" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172750" interpolation-style="Curved" state="Off">
@@ -16870,7 +16877,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.101" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="372648" length="7113" position="2661115" beat="93.531252834467111" sync-position="372648" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="53" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172758" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.101" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="372648" length="7113" position="2661115" beat="93.531252834467111" sync-position="372648" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="53" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172758" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172759" interpolation-style="Curved" state="Off">
@@ -16901,7 +16908,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.102" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="387763" length="6224" position="2676230" beat="94.062505668934236" sync-position="387763" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="54" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172767" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.102" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="387763" length="6224" position="2676230" beat="94.062505668934236" sync-position="387763" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="54" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172767" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172768" interpolation-style="Curved" state="Off">
@@ -16932,7 +16939,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.103" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="401989" length="6224" position="2690456" beat="94.562512471655324" sync-position="401989" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="55" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172776" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.103" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="401989" length="6224" position="2690456" beat="94.562512471655324" sync-position="401989" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="55" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172776" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172777" interpolation-style="Curved" state="Off">
@@ -16963,7 +16970,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.104" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="415326" length="7113" position="2703793" beat="95.031273242630391" sync-position="415326" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="56" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172785" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.104" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="415326" length="7113" position="2703793" beat="95.031273242630391" sync-position="415326" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="56" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172785" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172786" interpolation-style="Curved" state="Off">
@@ -16994,7 +17001,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.105" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="429552" length="7113" position="2718019" beat="95.531280045351465" sync-position="429552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="57" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172794" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.105" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="429552" length="7113" position="2718019" beat="95.531280045351465" sync-position="429552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="57" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="172794" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="172795" interpolation-style="Curved" state="Off">
@@ -17025,7 +17032,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.120" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="442888" length="8002" position="2731355" beat="96.00000566893425" sync-position="442888" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="69" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173923" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.120" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="442888" length="8002" position="2731355" beat="96.00000566893425" sync-position="442888" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="69" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173923" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173924" interpolation-style="Curved" state="Off">
@@ -17056,7 +17063,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.115" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="258842" length="7113" position="2774922" beat="97.531272108843538" sync-position="258842" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="64" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173873" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.115" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="258842" length="7113" position="2774922" beat="97.531272108843538" sync-position="258842" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="64" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173873" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173874" interpolation-style="Curved" state="Off">
@@ -17087,7 +17094,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.117" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="274846" length="12448" position="2790926" beat="98.093770975056685" sync-position="274846" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="66" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173893" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.117" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="274846" length="12448" position="2790926" beat="98.093770975056685" sync-position="274846" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="66" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173893" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173894" interpolation-style="Curved" state="Off">
@@ -17118,7 +17125,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.118" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="315745" length="7113" position="2831825" beat="99.531264172335611" sync-position="315745" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="67" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173903" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.118" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="315745" length="7113" position="2831825" beat="99.531264172335611" sync-position="315745" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="67" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173903" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173904" interpolation-style="Curved" state="Off">
@@ -17149,7 +17156,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.112" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="329971" length="14226" position="2846051" beat="100.03127097505669" sync-position="329971" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="61" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173843" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.112" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="329971" length="14226" position="2846051" beat="100.03127097505669" sync-position="329971" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="61" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173843" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173844" interpolation-style="Curved" state="Off">
@@ -17180,7 +17187,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.113" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="372648" length="7113" position="2888728" beat="101.53125623582766" sync-position="372648" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="62" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173853" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.113" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="372648" length="7113" position="2888728" beat="101.53125623582766" sync-position="372648" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="62" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173853" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173854" interpolation-style="Curved" state="Off">
@@ -17211,7 +17218,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.119" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="387763" length="6224" position="2903843" beat="102.06250907029478" sync-position="387763" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="68" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173913" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.119" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="387763" length="6224" position="2903843" beat="102.06250907029478" sync-position="387763" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="68" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173913" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173914" interpolation-style="Curved" state="Off">
@@ -17242,7 +17249,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.114" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="401989" length="6224" position="2918069" beat="102.56251587301587" sync-position="401989" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="63" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173863" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.114" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="401989" length="6224" position="2918069" beat="102.56251587301587" sync-position="401989" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="63" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173863" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173864" interpolation-style="Curved" state="Off">
@@ -17273,7 +17280,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.116" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="415326" length="7113" position="2931406" beat="103.03127664399094" sync-position="415326" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="65" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173883" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.116" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="415326" length="7113" position="2931406" beat="103.03127664399094" sync-position="415326" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="65" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173883" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173884" interpolation-style="Curved" state="Off">
@@ -17304,7 +17311,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.111" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="429552" length="7113" position="2945632" beat="103.53128344671201" sync-position="429552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="60" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173833" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.111" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="429552" length="7113" position="2945632" beat="103.53128344671201" sync-position="429552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="60" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="173833" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="173834" interpolation-style="Curved" state="Off">
@@ -18575,7 +18582,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.312" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3388520" length="241839" position="4538032" beat="159.5" sync-position="3388520" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="28" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="421523" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.312" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3388520" length="241839" position="4538032" beat="159.5" sync-position="3388520" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="28" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="421523" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="421524" interpolation-style="Curved" state="Off">
@@ -18606,7 +18613,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.223" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="442888" length="8002" position="4779871" beat="168.00000113378684" sync-position="442888" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="126" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176463" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.223" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="442888" length="8002" position="4779871" beat="168.00000113378684" sync-position="442888" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="126" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176463" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176464" interpolation-style="Curved" state="Off">
@@ -18637,7 +18644,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.218" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="258842" length="7113" position="4823438" beat="169.53126757369614" sync-position="258842" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="121" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176413" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.218" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="258842" length="7113" position="4823438" beat="169.53126757369614" sync-position="258842" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="121" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176413" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176414" interpolation-style="Curved" state="Off">
@@ -18668,7 +18675,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.220" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="274846" length="12448" position="4839442" beat="170.0937664399093" sync-position="274846" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="123" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176433" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.220" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="274846" length="12448" position="4839442" beat="170.0937664399093" sync-position="274846" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="123" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176433" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176434" interpolation-style="Curved" state="Off">
@@ -18699,7 +18706,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.221" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="315745" length="7113" position="4880341" beat="171.53125963718821" sync-position="315745" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="124" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176443" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.221" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="315745" length="7113" position="4880341" beat="171.53125963718821" sync-position="315745" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="124" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176443" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176444" interpolation-style="Curved" state="Off">
@@ -18730,7 +18737,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.215" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="329971" length="14226" position="4894567" beat="172.0312664399093" sync-position="329971" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="118" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176383" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.215" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="329971" length="14226" position="4894567" beat="172.0312664399093" sync-position="329971" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="118" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176383" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176384" interpolation-style="Curved" state="Off">
@@ -18761,7 +18768,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.216" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="372648" length="7113" position="4937244" beat="173.53125170068029" sync-position="372648" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="119" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176393" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.216" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="372648" length="7113" position="4937244" beat="173.53125170068029" sync-position="372648" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="119" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176393" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176394" interpolation-style="Curved" state="Off">
@@ -18792,7 +18799,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.222" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="387763" length="6224" position="4952359" beat="174.06250453514738" sync-position="387763" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="125" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176453" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.222" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="387763" length="6224" position="4952359" beat="174.06250453514738" sync-position="387763" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="125" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176453" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176454" interpolation-style="Curved" state="Off">
@@ -18823,7 +18830,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.217" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="401989" length="6224" position="4966585" beat="174.56251133786847" sync-position="401989" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="120" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176403" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.217" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="401989" length="6224" position="4966585" beat="174.56251133786847" sync-position="401989" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="120" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176403" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176404" interpolation-style="Curved" state="Off">
@@ -18854,7 +18861,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.219" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="415326" length="7113" position="4979922" beat="175.03127210884352" sync-position="415326" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="122" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176423" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.219" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="415326" length="7113" position="4979922" beat="175.03127210884352" sync-position="415326" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="122" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176423" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176424" interpolation-style="Curved" state="Off">
@@ -18885,7 +18892,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.214" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="429552" length="7113" position="4994148" beat="175.53127891156464" sync-position="429552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="117" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176373" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.214" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="429552" length="7113" position="4994148" beat="175.53127891156464" sync-position="429552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="117" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176373" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176374" interpolation-style="Curved" state="Off">
@@ -18916,7 +18923,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.204" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="442888" length="8002" position="5007484" beat="176.00000453514738" sync-position="442888" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="107" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176273" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.204" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="442888" length="8002" position="5007484" beat="176.00000453514738" sync-position="442888" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="107" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176273" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176274" interpolation-style="Curved" state="Off">
@@ -18947,7 +18954,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.209" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="258842" length="7113" position="5051051" beat="177.53127097505669" sync-position="258842" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="112" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176323" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.209" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="258842" length="7113" position="5051051" beat="177.53127097505669" sync-position="258842" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="112" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176323" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176324" interpolation-style="Curved" state="Off">
@@ -18978,7 +18985,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.207" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="274846" length="12448" position="5067055" beat="178.09376984126985" sync-position="274846" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="110" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176303" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.207" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="274846" length="12448" position="5067055" beat="178.09376984126985" sync-position="274846" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="110" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176303" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176304" interpolation-style="Curved" state="Off">
@@ -19009,7 +19016,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.206" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="315745" length="7113" position="5107954" beat="179.53126303854876" sync-position="315745" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="109" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176293" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.206" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="315745" length="7113" position="5107954" beat="179.53126303854876" sync-position="315745" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="109" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176293" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176294" interpolation-style="Curved" state="Off">
@@ -19040,7 +19047,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.212" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="329971" length="14226" position="5122180" beat="180.03126984126985" sync-position="329971" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="115" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176353" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.212" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="329971" length="14226" position="5122180" beat="180.03126984126985" sync-position="329971" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="115" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176353" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176354" interpolation-style="Curved" state="Off">
@@ -19071,7 +19078,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.211" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="372648" length="7113" position="5164857" beat="181.53125510204083" sync-position="372648" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="114" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176343" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.211" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="372648" length="7113" position="5164857" beat="181.53125510204083" sync-position="372648" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="114" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176343" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176344" interpolation-style="Curved" state="Off">
@@ -19102,7 +19109,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.205" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="387763" length="6224" position="5179972" beat="182.06250793650793" sync-position="387763" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="108" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176283" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.205" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="387763" length="6224" position="5179972" beat="182.06250793650793" sync-position="387763" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="108" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176283" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176284" interpolation-style="Curved" state="Off">
@@ -19133,7 +19140,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.210" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="401989" length="6224" position="5194198" beat="182.56251473922904" sync-position="401989" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="113" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176333" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.210" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="401989" length="6224" position="5194198" beat="182.56251473922904" sync-position="401989" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="113" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176333" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176334" interpolation-style="Curved" state="Off">
@@ -19164,7 +19171,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.208" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="415326" length="7113" position="5207535" beat="183.03127551020407" sync-position="415326" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="111" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176313" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.208" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="415326" length="7113" position="5207535" beat="183.03127551020407" sync-position="415326" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="111" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176313" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176314" interpolation-style="Curved" state="Off">
@@ -19195,7 +19202,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Tetris song   Eric 1st guit  03 29 20.213" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="429552" length="7113" position="5221761" beat="183.53128231292516" sync-position="429552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="116" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176363" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
+      <Region name="Tetris song   Eric 1st guit  03 29 20.213" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="429552" length="7113" position="5221761" beat="183.53128231292516" sync-position="429552" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="116" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="176363" type="audio" first-edit="nothing" source-0="39431" source-1="39433" master-source-0="39431" master-source-1="39433" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="176364" interpolation-style="Curved" state="Off">
@@ -24508,7 +24515,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="Bass 1.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="503238" length="21339" position="496125" beat="17.4375" sync-position="497903" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1.4125374555587769" id="580367" type="audio" first-edit="nothing" source-0="455790" master-source-0="455790" channels="1">
+      <Region name="Bass 1.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="503238" length="21339" position="496125" beat="17.4375" sync-position="503238" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1.4125374555587769" id="580367" type="audio" first-edit="nothing" source-0="455790" master-source-0="455790" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="580368" interpolation-style="Curved" state="Off">
@@ -24855,7 +24862,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2274351" length="87133" position="2274351" beat="79.9375" sync-position="2274351" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579214" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.16" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2274351" length="87133" position="2274351" beat="79.9375" sync-position="2274351" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579214" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579215" interpolation-style="Curved" state="Off">
@@ -24886,7 +24893,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2361484" length="28451" position="2359706" beat="82.9375" sync-position="2361484" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579223" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.17" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2361484" length="28451" position="2359706" beat="82.9375" sync-position="2361484" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579223" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579224" interpolation-style="Curved" state="Off">
@@ -24917,38 +24924,69 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="576146" position="2388157" beat="83.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579141" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.14" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="115585" position="2388157" beat="83.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="608302" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="579142" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="608303" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="579143" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="608304" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="579144" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="608305" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="579145" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="608306" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.8" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2966081" length="903338" position="2966081" beat="104.25" sync-position="2957190" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="575687" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.15" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2505520" length="460561" position="2503742" beat="88" sync-position="2505520" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="608310" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="608311" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="608312" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="608313" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="608314" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="classical L.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2966081" length="903338" position="2966081" beat="104.25" sync-position="2966081" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="575687" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="575688" interpolation-style="Curved" state="Off">
@@ -24979,7 +25017,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4538032" length="718403" position="4538032" beat="159.5" sync-position="3869419" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="577463" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.10" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4538032" length="718403" position="4538032" beat="159.5" sync-position="4538032" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="577463" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="577464" interpolation-style="Curved" state="Off">
@@ -25010,7 +25048,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2274351" length="87133" position="4550480" beat="159.93750566893422" sync-position="2274351" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579280" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.18" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2274351" length="87133" position="4550480" beat="159.93750566893422" sync-position="2274351" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="10" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579280" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579281" interpolation-style="Curved" state="Off">
@@ -25041,7 +25079,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2361484" length="28451" position="4635835" beat="162.9375113378685" sync-position="2361484" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579300" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.20" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2361484" length="28451" position="4635835" beat="162.9375113378685" sync-position="2361484" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579300" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579301" interpolation-style="Curved" state="Off">
@@ -25072,7 +25110,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.19" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="576146" position="4664286" beat="163.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="10" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579290" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.19" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="576146" position="4664286" beat="163.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="579290" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579291" interpolation-style="Curved" state="Off">
@@ -25103,7 +25141,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.12" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5256435" length="889113" position="5256435" beat="184.75" sync-position="5256435" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="577557" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5256435" length="889113" position="5256435" beat="184.75" sync-position="5256435" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="577557" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="577558" interpolation-style="Curved" state="Off">
@@ -25134,7 +25172,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical L.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6145548" length="2253627" position="6145548" beat="216" sync-position="6145548" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="577566" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
+      <Region name="classical L.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6145548" length="2253627" position="6145548" beat="216" sync-position="6145548" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.0704643726348877" id="577566" type="audio" first-edit="nothing" source-0="523433" master-source-0="523433" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="577567" interpolation-style="Curved" state="Off">
@@ -25229,7 +25267,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2272573" length="90689" position="2272573" beat="79.875" sync-position="2272573" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579247" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.16" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2272573" length="90689" position="2272573" beat="79.875" sync-position="2272573" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579247" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579248" interpolation-style="Curved" state="Off">
@@ -25260,7 +25298,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2363262" length="26673" position="2359706" beat="82.9375" sync-position="2363262" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579256" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.17" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2363262" length="26673" position="2359706" beat="82.9375" sync-position="2363262" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579256" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579257" interpolation-style="Curved" state="Off">
@@ -25291,38 +25329,69 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="576146" position="2388157" beat="83.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579174" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.16" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="115585" position="2388157" beat="83.9375" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="608330" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
-          <AutomationList automation-id="fadein" id="579175" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="608331" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </FadeIn>
         <InverseFadeIn>
-          <AutomationList automation-id="fadein" id="579176" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadein" id="608332" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </InverseFadeIn>
         <FadeOut>
-          <AutomationList automation-id="fadeout" id="579177" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="608333" interpolation-style="Curved" state="Off">
             <events>0 1
 64 1.0000000116860974e-07
 </events>
           </AutomationList>
         </FadeOut>
         <InverseFadeOut>
-          <AutomationList automation-id="fadeout" id="579178" interpolation-style="Curved" state="Off">
+          <AutomationList automation-id="fadeout" id="608334" interpolation-style="Curved" state="Off">
             <events>0 1.0000000116860974e-07
 64 1
 </events>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.8" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2966081" length="905117" position="2966081" beat="104.25" sync-position="2958968" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="575714" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.17" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2505520" length="460561" position="2503742" beat="88" sync-position="2505520" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="608338" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="608339" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="608340" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="608341" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="608342" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="classical R.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2966081" length="905117" position="2966081" beat="104.25" sync-position="2966081" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="575714" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="575715" interpolation-style="Curved" state="Off">
@@ -25353,7 +25422,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4538032" length="718403" position="4538032" beat="159.5" sync-position="3871198" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="577490" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.10" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4538032" length="718403" position="4538032" beat="159.5" sync-position="4538032" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="577490" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="577491" interpolation-style="Curved" state="Off">
@@ -25384,7 +25453,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2272573" length="90689" position="4548702" beat="159.875" sync-position="2272573" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579334" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.18" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2272573" length="90689" position="4548702" beat="159.875" sync-position="2272573" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="10" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579334" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579335" interpolation-style="Curved" state="Off">
@@ -25415,7 +25484,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2363262" length="26673" position="4635835" beat="162.9375113378685" sync-position="2363262" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579354" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.20" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2363262" length="26673" position="4635835" beat="162.9375113378685" sync-position="2363262" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579354" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579355" interpolation-style="Curved" state="Off">
@@ -25446,7 +25515,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.19" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="576146" position="4664286" beat="163.9374897959184" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="10" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579344" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.19" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2389935" length="576146" position="4664286" beat="163.9374897959184" sync-position="2389935" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="579344" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="579345" interpolation-style="Curved" state="Off">
@@ -25477,7 +25546,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.12" muted="1" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5256435" length="887335" position="5256435" beat="184.75" sync-position="5256435" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="577584" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5256435" length="887335" position="5256435" beat="184.75" sync-position="5256435" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="577584" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="577585" interpolation-style="Curved" state="Off">
@@ -25508,7 +25577,7 @@ lots of vocal playlist versions available on this</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="classical R.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6143770" length="2167102" position="6143770" beat="215.9375" sync-position="6143770" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="577593" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
+      <Region name="classical R.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6143770" length="2167102" position="6143770" beat="215.9375" sync-position="6143770" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="3.655510425567627" id="577593" type="audio" first-edit="nothing" source-0="523523" master-source-0="523523" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="577594" interpolation-style="Curved" state="Off">
@@ -29619,6 +29688,10 @@ lots of vocal playlist versions available on this</Comment>
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="607984" name="MIDI trombone.1" type="midi" orig-track-id="607942" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="MIDI trombone-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="455225" position="227613" beat="8" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="16" id="608189" type="midi" first-edit="nothing" source-0="608187" master-source-0="608187"/>
+      <Region name="MIDI trombone-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="455226" position="682838" beat="23.99997505668934" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="16" id="608243" type="midi" first-edit="nothing" source-0="608187" master-source-0="608187"/>
+    </Playlist>
   </UnusedPlaylists>
   <RouteGroups>
     <RouteGroup id="11409" rgba="3837710591" used-to-share-gain="0" name="keys" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="158 261 "/>
@@ -29747,10 +29820,10 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="session-options-editor" visible="0" x-off="0" y-off="335" x-size="750" y-size="368"/>
       <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="668" y-size="509"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="688" y-off="321" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="875" y-off="0" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -29862,11 +29935,13 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="P-477319-477350" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-477319-480449" visible="0" x-off="0" y-off="67" x-size="751" y-size="372" custom-ui="1"/>
       <Window name="P-477319-477349" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-477319-580442" visible="0" x-off="1062" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="P-477319-477351" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-477319-477352" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-477350-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-480449-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-477349-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-580442-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-477351-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-477352-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-32069-32100" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -29995,18 +30070,24 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="PM-92627-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-523445-523476" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-523445-523475" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-523445-567056" visible="0" x-off="1062" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-523445-567139" visible="0" x-off="1073" y-off="94" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="P-523445-523477" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-523445-523478" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-523476-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-523475-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-567056-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-567139-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-523477-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-523478-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-523535-523566" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-523535-523565" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-523535-567165" visible="0" x-off="1062" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="P-523535-523567" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-523535-523568" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-523566-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-523565-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-567165-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-523567-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-523568-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-11011-11042" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -30045,14 +30126,6 @@ lots of vocal playlist versions available on this</Comment>
       <Window name="PM-47323-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-47325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-47326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-523445-567056" visible="0" x-off="492" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-567056-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-523445-567139" visible="0" x-off="498" y-off="100" x-size="847" y-size="404" custom-ui="1"/>
-      <Window name="PM-567139-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-523535-567165" visible="0" x-off="492" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-567165-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-477319-580442" visible="0" x-off="492" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-580442-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -30349,6 +30422,12 @@ lots of vocal playlist versions available on this</Comment>
         <Object id="automation 523541" height="66" visible="0"/>
         <Object id="automation 523535 12/0/0" height="66" visible="0"/>
         <Object id="automation 523554" height="66" visible="0"/>
+        <Object id="strip 607942" strip-width="Wide" visible="1">
+          <Object id="processor 607972"/>
+          <Object id="processor 608180"/>
+          <Object id="processor 608195"/>
+          <Object id="processor 608261"/>
+        </Object>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
