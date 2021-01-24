@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="999728" name-counter="1" event-counter="703786" vca-counter="1">
+<Session version="3002" name="200222-song-idea" sample-rate="44100" end-is-free="0" id-counter="1036150" name-counter="1" event-counter="710644" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -2499,7 +2499,7 @@
     <Region name="fr horn-1.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3335952" length="106693" position="0" beat="0" sync-position="3335952" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="921800" type="audio" first-edit="nothing" source-0="823628" master-source-0="823628" channels="1"/>
     <Region name="fr horn-1.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3222146" length="220499" position="2276129" beat="80" sync-position="3222146" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="921919" type="audio" first-edit="nothing" source-0="823628" master-source-0="823628" channels="1"/>
     <Region name="shaker-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8032512" position="675726" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960071" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="433887" length="7598625" position="1109613" beat="39" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960079" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="433887" length="7598625" position="1109613" beat="39" sync-position="433887" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960079" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="trap set-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8032512" position="675726" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960096" type="audio" first-edit="nothing" source-0="960048" source-1="960050" master-source-0="960048" master-source-1="960050" channels="2"/>
     <Region name="Audio-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8808960" position="675726" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960198" type="audio" first-edit="nothing" source-0="960169" source-1="960171" master-source-0="960169" master-source-1="960171" channels="2"/>
     <Region name="big trap-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8190208" position="675726" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960243" type="audio" first-edit="nothing" source-0="960224" source-1="960226" master-source-0="960224" master-source-1="960226" channels="2"/>
@@ -2516,7 +2516,7 @@
     <Region name="big trap-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7395328" position="675726" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960583" type="audio" first-edit="nothing" source-0="960565" source-1="960567" master-source-0="960565" master-source-1="960567" channels="2"/>
     <Region name="big trap-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="7395328" position="675726" beat="23.750006802721089" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960591" type="audio" first-edit="nothing" source-0="960565" source-1="960567" master-source-0="960565" master-source-1="960567" channels="2"/>
     <Region name="big trap-5" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="8264448" position="675726" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960621" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2"/>
-    <Region name="big trap-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="433887" length="7830561" position="1109613" beat="39" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960629" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2"/>
+    <Region name="big trap-5.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="433887" length="7830561" position="1109613" beat="39" sync-position="433887" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960629" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2"/>
     <Region name="shaker-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="689951" length="113808" position="0" beat="0" sync-position="689951" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="992578" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="689951" length="113808" position="1479484" beat="52.000004535147397" sync-position="689951" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="992589" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="689951" length="113808" position="1138065" beat="40" sync-position="689951" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="992605" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
@@ -2665,18 +2665,18 @@
     <Region name="shaker-2.147" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4900790" length="113808" position="8990817" beat="316.00377210884358" sync-position="4900790" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="69" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994168" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.148" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4900790" length="113808" position="9104625" beat="320.00382653061223" sync-position="4900790" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="70" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994177" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.149" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4900790" length="113696" position="9218433" beat="324.00388095238094" sync-position="4900790" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="71" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994186" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.150" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4901822" length="13193" position="1138065" beat="40" sync-position="4900790" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994670" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.150" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4901822" length="13193" position="1138065" beat="40" sync-position="4901822" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994670" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.151" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4915015" length="99583" position="1151282" beat="40.464560090702946" sync-position="4915015" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994679" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.152" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4914583" length="14644" position="1150850" beat="40.449376417233559" sync-position="4915015" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994715" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.152" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4914583" length="14644" position="1150850" beat="40.449376417233559" sync-position="4914583" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994715" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.153" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4929229" length="85369" position="1166120" beat="40.986077097505664" sync-position="4929229" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994724" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.154" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4928413" length="15528" position="1165304" beat="40.957396825396827" sync-position="4929229" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994748" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.154" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4928413" length="15528" position="1165304" beat="40.957396825396827" sync-position="4928413" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994748" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.155" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4943941" length="70657" position="1180160" beat="41.479546485260769" sync-position="4943941" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994757" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.156" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4943941" length="13774" position="1180160" beat="41.479546485260769" sync-position="4943941" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994781" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.157" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4957717" length="56881" position="1194176" beat="41.972172335600909" sync-position="4957717" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994790" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.158" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4957189" length="28306" position="1193648" beat="41.953614512471653" sync-position="4957717" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994814" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.158" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4957189" length="28306" position="1193648" beat="41.953614512471653" sync-position="4957189" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994814" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.159" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4985497" length="29101" position="1222484" beat="42.967124716553293" sync-position="4985497" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994823" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.160" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4984825" length="15060" position="1221812" beat="42.943505668934243" sync-position="4985497" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994847" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.161" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4999357" length="15239" position="1236632" beat="43.464390022675737" sync-position="4999885" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994856" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.160" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4984825" length="15060" position="1221812" beat="42.943505668934243" sync-position="4984825" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994847" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.161" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4999357" length="15239" position="1236632" beat="43.464390022675737" sync-position="4999357" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="994856" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker loop.1 compound-1 (1)" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="113808" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="995067" type="audio" first-edit="nothing" source-0="995065" master-source-0="995065" channels="1">
       <NestedSource>
         <Source name="shaker loop.1 compound-1 (1)" type="audio" flags="" id="995065" playlist="995000" offset="0" length="113808" original="995065" channel="0">
@@ -3439,11 +3439,11 @@
     <Region name="shaker loop.1 compound-2.71 (1)" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="113808" position="9104625" beat="320.00382653061223" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="70" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997054" type="audio" first-edit="nothing" source-0="996408" master-source-0="996408" channels="1"/>
     <Region name="shaker loop.1 compound-2.72" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="113696" position="9218433" beat="324.00388095238094" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="71" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997063" type="audio" first-edit="nothing" source-0="996408" master-source-0="996408" channels="1"/>
     <Region name="shaker-2.174" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4901822" length="4113" position="1138065" beat="40" sync-position="4901822" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997394" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.175" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4904305" length="10708" position="1141988" beat="40.137900226757367" sync-position="4905937" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997403" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.175" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4904305" length="10708" position="1141988" beat="40.137900226757367" sync-position="4904305" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997403" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.176" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4928413" length="5560" position="1165304" beat="40.957396825396827" sync-position="4928413" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997448" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.177" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4932175" length="11764" position="1170506" beat="41.140233560090707" sync-position="4933975" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997457" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.177" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4932175" length="11764" position="1170506" beat="41.140233560090707" sync-position="4932175" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997457" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker-2.178" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4984825" length="6118" position="1221812" beat="42.943505668934243" sync-position="4984825" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997504" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
-    <Region name="shaker-2.179" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4989073" length="10810" position="1227644" beat="43.148485260770975" sync-position="4990945" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997513" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.179" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4989073" length="10810" position="1227644" beat="43.148485260770975" sync-position="4989073" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997513" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="shaker loop.1 compound-3 (1)" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="113806" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="997888" type="audio" first-edit="nothing" source-0="997886" master-source-0="997886" channels="1">
       <NestedSource>
         <Source name="shaker loop.1 compound-3 (1)" type="audio" flags="" id="997886" playlist="997794" offset="0" length="113806" original="997886" channel="0">
@@ -3779,20 +3779,18 @@
     <Region name="big trap-5.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1593290" length="156484" position="2269016" beat="79.75" sync-position="1593290" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="998839" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2"/>
     <Region name="big trap-5.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1749774" length="6514674" position="2425500" beat="85.25" sync-position="1749774" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="998848" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2"/>
     <Region name="vocals-58.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1052710" length="199161" position="9104516" beat="320" sync-position="1052710" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="2.7614188194274902" id="999125" type="audio" first-edit="nothing" source-0="418134" master-source-0="418134" channels="1"/>
-    <Region name="shaker-2.181" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1828016" length="6204496" position="2503742" beat="88" sync-position="924677" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="999240" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
+    <Region name="shaker-2.181" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="1828016" length="6204496" position="2503742" beat="88" sync-position="1828016" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="999240" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1"/>
     <Region name="big trap-5.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4786984" length="113807" position="0" beat="0" sync-position="4786984" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="999314" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2"/>
     <Region name="big trap-5.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5014597" length="113807" position="0" beat="0" sync-position="5014597" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="999341" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2"/>
     <Region name="big trap-5.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="5014597" length="113807" position="5804129" beat="203.99999886621316" sync-position="5014597" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="999352" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2"/>
+    <Region name="Audio-6.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6721693" length="227614" position="0" beat="0" sync-position="6721693" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1035903" type="audio" first-edit="nothing" source-0="960487" source-1="960489" master-source-0="960487" master-source-1="960489" channels="2"/>
+    <Region name="Audio-6.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6721693" length="227614" position="8066032" beat="283.5" sync-position="6721693" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1035914" type="audio" first-edit="nothing" source-0="960487" source-1="960489" master-source-0="960487" master-source-1="960489" channels="2"/>
+    <Region name="Audio-6.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6351822" length="56905" position="0" beat="0" sync-position="6351822" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1035958" type="audio" first-edit="nothing" source-0="960487" source-1="960489" master-source-0="960487" master-source-1="960489" channels="2"/>
+    <Region name="Audio-6.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6366048" length="42679" position="8179839" beat="287.5" sync-position="6351822" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1035969" type="audio" first-edit="nothing" source-0="960487" source-1="960489" master-source-0="960487" master-source-1="960489" channels="2"/>
+    <Region name="Audio-6.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6366048" length="14226" position="8393226" beat="295" sync-position="6366048" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1036033" type="audio" first-edit="nothing" source-0="960487" source-1="960489" master-source-0="960487" master-source-1="960489" channels="2"/>
+    <Region name="Audio-6.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6366048" length="42679" position="8379000" beat="294.5" sync-position="6366048" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="1036115" type="audio" first-edit="nothing" source-0="960487" source-1="960489" master-source-0="960487" master-source-1="960489" channels="2"/>
   </Regions>
   <CompoundAssociations>
-    <CompoundAssociation copy="997796" original="997394"/>
-    <CompoundAssociation copy="996300" original="996008"/>
-    <CompoundAssociation copy="995011" original="994715"/>
-    <CompoundAssociation copy="995020" original="994748"/>
-    <CompoundAssociation copy="997859" original="997504"/>
-    <CompoundAssociation copy="997841" original="994781"/>
-    <CompoundAssociation copy="997868" original="997513"/>
-    <CompoundAssociation copy="996336" original="996118"/>
     <CompoundAssociation copy="22729" original="22539"/>
     <CompoundAssociation copy="22738" original="22564"/>
     <CompoundAssociation copy="22774" original="22595"/>
@@ -3800,7 +3798,6 @@
     <CompoundAssociation copy="22756" original="22661"/>
     <CompoundAssociation copy="22765" original="22694"/>
     <CompoundAssociation copy="22783" original="22703"/>
-    <CompoundAssociation copy="996390" original="996245"/>
     <CompoundAssociation copy="28143" original="27936"/>
     <CompoundAssociation copy="28134" original="28058"/>
     <CompoundAssociation copy="30663" original="29658"/>
@@ -3817,29 +3814,38 @@
     <CompoundAssociation copy="478911" original="478828"/>
     <CompoundAssociation copy="478920" original="478837"/>
     <CompoundAssociation copy="478929" original="478846"/>
-    <CompoundAssociation copy="997832" original="997457"/>
-    <CompoundAssociation copy="997814" original="994715"/>
-    <CompoundAssociation copy="997877" original="994856"/>
-    <CompoundAssociation copy="997850" original="994814"/>
-    <CompoundAssociation copy="997805" original="997403"/>
-    <CompoundAssociation copy="995029" original="994781"/>
-    <CompoundAssociation copy="996318" original="996062"/>
-    <CompoundAssociation copy="996309" original="996017"/>
-    <CompoundAssociation copy="995056" original="994856"/>
-    <CompoundAssociation copy="996354" original="994781"/>
-    <CompoundAssociation copy="996327" original="996071"/>
-    <CompoundAssociation copy="996399" original="994856"/>
     <CompoundAssociation copy="995002" original="994670"/>
-    <CompoundAssociation copy="996381" original="996236"/>
+    <CompoundAssociation copy="995011" original="994715"/>
+    <CompoundAssociation copy="995020" original="994748"/>
+    <CompoundAssociation copy="995029" original="994781"/>
+    <CompoundAssociation copy="995038" original="994814"/>
+    <CompoundAssociation copy="995047" original="994847"/>
+    <CompoundAssociation copy="995056" original="994856"/>
+    <CompoundAssociation copy="996300" original="996008"/>
+    <CompoundAssociation copy="996309" original="996017"/>
+    <CompoundAssociation copy="996318" original="996062"/>
+    <CompoundAssociation copy="996327" original="996071"/>
+    <CompoundAssociation copy="996336" original="996118"/>
+    <CompoundAssociation copy="996345" original="996127"/>
+    <CompoundAssociation copy="996354" original="994781"/>
     <CompoundAssociation copy="996363" original="996176"/>
     <CompoundAssociation copy="996372" original="996185"/>
-    <CompoundAssociation copy="996345" original="996127"/>
-    <CompoundAssociation copy="995047" original="994847"/>
+    <CompoundAssociation copy="996381" original="996236"/>
+    <CompoundAssociation copy="996390" original="996245"/>
+    <CompoundAssociation copy="996399" original="994856"/>
+    <CompoundAssociation copy="997796" original="997394"/>
+    <CompoundAssociation copy="997805" original="997403"/>
+    <CompoundAssociation copy="997814" original="994715"/>
     <CompoundAssociation copy="997823" original="997448"/>
-    <CompoundAssociation copy="995038" original="994814"/>
+    <CompoundAssociation copy="997832" original="997457"/>
+    <CompoundAssociation copy="997841" original="994781"/>
+    <CompoundAssociation copy="997850" original="994814"/>
+    <CompoundAssociation copy="997859" original="997504"/>
+    <CompoundAssociation copy="997868" original="997513"/>
+    <CompoundAssociation copy="997877" original="994856"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="960124" control="0" order="54"/>
+    <StripableAutomationControl stripable="285365" control="0" order="17"/>
   </Selection>
   <Locations>
     <Location id="255" name="session" start="675726" end="9332129" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
@@ -6109,7 +6115,7 @@ yoshimi used in the chip bank using Chip Bass</Comment>
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state29">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state30">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="Freewheel" id="28507" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -7716,8 +7722,8 @@ lots of vocal playlist versions available on this</Comment>
           <Port symbol="p3_freq" value="1971.2005615234375"/>
           <Port symbol="p3_q" value="1"/>
           <Port symbol="p4_active" value="1"/>
-          <Port symbol="p4_level" value="0.54057031869888306"/>
-          <Port symbol="p4_freq" value="6477.8349609375"/>
+          <Port symbol="p4_level" value="0.49403461813926697"/>
+          <Port symbol="p4_freq" value="4351.41064453125"/>
           <Port symbol="p4_q" value="1"/>
           <Port symbol="individuals" value="1"/>
           <Port symbol="zoom" value="0.25"/>
@@ -7756,8 +7762,8 @@ lots of vocal playlist versions available on this</Comment>
         <Controllable name="Freq 3" id="266114" flags="" value="1971.2005615234375" parameter="41" symbol="p3_freq"/>
         <Controllable name="Q 3" id="266116" flags="" value="1" parameter="42" symbol="p3_q"/>
         <Controllable name="F4 Active" id="266118" flags="" value="1" parameter="43" symbol="p4_active"/>
-        <Controllable name="Level 4" id="266120" flags="" value="0.54057031869888306" parameter="44" symbol="p4_level"/>
-        <Controllable name="Freq 4" id="266122" flags="" value="6477.8349609375" parameter="45" symbol="p4_freq"/>
+        <Controllable name="Level 4" id="266120" flags="" value="0.49403461813926697" parameter="44" symbol="p4_level"/>
+        <Controllable name="Freq 4" id="266122" flags="" value="4351.41064453125" parameter="45" symbol="p4_freq"/>
         <Controllable name="Q 4" id="266124" flags="" value="1" parameter="46" symbol="p4_q"/>
         <Controllable name="Individual Filters" id="266126" flags="Toggle" value="1" parameter="47" symbol="individuals"/>
         <Controllable name="Zoom" id="266128" flags="" value="0.25" parameter="48" symbol="zoom"/>
@@ -13664,7 +13670,7 @@ if I do unmute this do this one</Comment>
           <Port symbol="ls_level" value="1"/>
           <Port symbol="ls_freq" value="100"/>
           <Port symbol="ls_q" value="0.7070000171661377"/>
-          <Port symbol="hs_active" value="1"/>
+          <Port symbol="hs_active" value="0"/>
           <Port symbol="hs_level" value="0.68723452091217041"/>
           <Port symbol="hs_freq" value="4913.94140625"/>
           <Port symbol="hs_q" value="0.7070000171661377"/>
@@ -13704,7 +13710,7 @@ if I do unmute this do this one</Comment>
         <Controllable name="Level L" id="999642" flags="" value="1" parameter="24" symbol="ls_level"/>
         <Controllable name="Freq L" id="999644" flags="" value="100" parameter="25" symbol="ls_freq"/>
         <Controllable name="LS Q" id="999646" flags="" value="0.7070000171661377" parameter="26" symbol="ls_q"/>
-        <Controllable name="HS Active" id="999648" flags="" value="1" parameter="27" symbol="hs_active"/>
+        <Controllable name="HS Active" id="999648" flags="" value="0" parameter="27" symbol="hs_active"/>
         <Controllable name="Level H" id="999650" flags="" value="0.68723452091217041" parameter="28" symbol="hs_level"/>
         <Controllable name="Freq H" id="999652" flags="" value="4913.94140625" parameter="29" symbol="hs_freq"/>
         <Controllable name="HS Q" id="999654" flags="" value="0.7070000171661377" parameter="30" symbol="hs_q"/>
@@ -36059,7 +36065,7 @@ if I do unmute this do this one</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="shaker-2.183" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3990339" length="3300387" position="4666065" beat="164" sync-position="3193693" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="999285" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1">
+      <Region name="shaker-2.183" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3990339" length="3300387" position="4666065" beat="164" sync-position="3990339" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="999285" type="audio" first-edit="nothing" source-0="960042" master-source-0="960042" channels="1">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="999286" interpolation-style="Curved" state="Off">
@@ -36125,7 +36131,7 @@ if I do unmute this do this one</Comment>
       </Region>
     </Playlist>
     <Playlist id="960358" name="Audio.3" type="audio" orig-track-id="960316" shared-with-ids="" frozen="0" combine-ops="0">
-      <Region name="Audio-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="419661" length="6906629" position="1095387" beat="38.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960510" type="audio" first-edit="nothing" source-0="960487" source-1="960489" master-source-0="960487" master-source-1="960489" channels="2">
+      <Region name="Audio-6.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="419661" length="6906629" position="1095387" beat="38.5" sync-position="419661" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="960510" type="audio" first-edit="nothing" source-0="960487" source-1="960489" master-source-0="960487" master-source-1="960489" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="960511" interpolation-style="Curved" state="Off">
@@ -36499,7 +36505,7 @@ if I do unmute this do this one</Comment>
           </AutomationList>
         </InverseFadeOut>
       </Region>
-      <Region name="big trap-5.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6607887" length="711290" position="7283613" beat="256" sync-position="6380274" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="998904" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2">
+      <Region name="big trap-5.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="6607887" length="711290" position="7283613" beat="256" sync-position="6607887" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="998904" type="audio" first-edit="nothing" source-0="960606" source-1="960608" master-source-0="960606" master-source-1="960608" channels="2">
         <Envelope default="yes"/>
         <FadeIn>
           <AutomationList automation-id="fadein" id="998905" interpolation-style="Curved" state="Off">
@@ -43382,10 +43388,10 @@ if I do unmute this do this one</Comment>
       <ExportFormat id="e61c1d0f-95bd-48fb-b812-def99dbabe28"/>
       <ExportFilename>
         <Folder relative="1" path="/export"/>
-        <Field name="label" enabled="1" value="i-can-only-miss-you-vocals-at-end"/>
+        <Field name="label" enabled="1" value="i-can-only-miss-you-mix"/>
         <Field name="session" enabled="0"/>
         <Field name="snapshot" enabled="0"/>
-        <Field name="timespan" enabled="1"/>
+        <Field name="timespan" enabled="0"/>
         <Field name="revision" enabled="0"/>
         <Field name="time" enabled="0" value="T_None"/>
         <Field name="date" enabled="1" value="D_BEShortY"/>
@@ -43399,7 +43405,7 @@ if I do unmute this do this one</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-midi-setup" visible="0" x-off="0" y-off="46" x-size="582" y-size="438"/>
+      <Window name="audio-midi-setup" visible="0" x-off="444" y-off="252" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -43410,6 +43416,9 @@ if I do unmute this do this one</Comment>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-11105" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-959916" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-960124" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-960316" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-17529" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-455600" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-456291" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -43446,10 +43455,7 @@ if I do unmute this do this one</Comment>
       <Window name="RPM-2867" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-4144" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-47293" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-959916" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-959977" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-960124" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-960316" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-14033" visible="0" x-off="365" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
@@ -43460,6 +43466,16 @@ if I do unmute this do this one</Comment>
       <Window name="PM-14033-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-960124-960155" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-960124-960154" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-960124-999616" visible="0" x-off="0" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-960124-960156" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-960124-960157" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-960155-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-960154-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-999616-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-960156-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-960157-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-11105-11136" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-11105-11135" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-11105-11232" visible="0" x-off="0" y-off="367" x-size="867" y-size="713" custom-ui="1"/>
@@ -43478,6 +43494,26 @@ if I do unmute this do this one</Comment>
       <Window name="PM-631332-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-11137-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-11138-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-959916-959947" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-959916-959946" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-959916-999148" visible="0" x-off="0" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-959916-959948" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-959916-959949" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-959947-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-959946-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-999148-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-959948-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-959949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-960316-960347" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-960316-960346" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-960316-992433" visible="0" x-off="0" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-960316-960348" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-960316-960349" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-960347-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-960346-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-992433-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-960348-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-960349-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-17529-17560" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-17529-17559" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-17529-17781" visible="0" x-off="1053" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
@@ -43892,14 +43928,6 @@ if I do unmute this do this one</Comment>
       <Window name="PM-47323-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-47325-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-47326-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-959916-959947" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-959916-959946" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-959916-959948" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-959916-959949" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-959947-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-959946-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-959948-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-959949-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-959977-960008" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-959977-960007" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-959977-960009" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -43908,28 +43936,6 @@ if I do unmute this do this one</Comment>
       <Window name="PM-960007-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-960009-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-960010-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-960124-960155" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-960124-960154" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-960124-960156" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-960124-960157" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-960155-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-960154-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-960156-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-960157-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-960316-960347" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-960316-960346" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-960316-960348" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="P-960316-960349" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-960347-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-960346-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-960348-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="PM-960349-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-960316-992433" visible="0" x-off="0" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-992433-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-959916-999148" visible="0" x-off="0" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-999148-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-960124-999616" visible="0" x-off="0" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-999616-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
