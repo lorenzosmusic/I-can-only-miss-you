@@ -9,9 +9,7 @@
       <Release/>
     </Buttons>
     <Selection>
-      <Regions>
-        <Region id="1183860"/>
-      </Regions>
+      <StripableView id="39445"/>
       <Marker id="255" start="0"/>
     </Selection>
     <RegionList sort-type="ByEndInFile" sort-ascending="1" show-all="0" show-automatic-regions="1"/>
