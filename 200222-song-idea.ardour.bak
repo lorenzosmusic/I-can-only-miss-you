@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="200222-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="1383581" name-counter="1" event-counter="799391" vca-counter="1">
+<Session version="6000" name="200222-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="1425664" name-counter="1" event-counter="810311" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -3874,7 +3874,7 @@
     <CompoundAssociation copy="997877" original="994856"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="230852" control="0" order="20"/>
+    <StripableAutomationControl stripable="455600" control="0" order="9"/>
   </Selection>
   <Locations>
     <Location id="255" name="session" start="1109613" end="8080258" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1690689601"/>
@@ -7909,7 +7909,7 @@ vol was -2.4
         <Automation>
           <AutomationList automation-id="gain" id="455603" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="455604" flags="GainLike" value="0.22690565884113312"/>
+        <Controllable name="gaincontrol" id="455604" flags="GainLike" value="0.37438184022903442"/>
       </Processor>
       <Processor id="455702" name="Calf Equalizer 5 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer5Band" count="1" custom="0">
         <Automation>
@@ -8081,7 +8081,7 @@ vol was -2.4
           <Port symbol="level_in" value="1"/>
           <Port symbol="level_out" value="1"/>
           <Port symbol="hp_active" value="1"/>
-          <Port symbol="hp_freq" value="68.207160949707031"/>
+          <Port symbol="hp_freq" value="46.112712860107422"/>
           <Port symbol="hp_mode" value="1"/>
           <Port symbol="hp_q" value="0.7070000171661377"/>
           <Port symbol="lp_active" value="1"/>
@@ -8121,7 +8121,7 @@ vol was -2.4
         <Controllable name="Input Gain" id="634007" flags="" value="1" parameter="5" symbol="level_in"/>
         <Controllable name="Output Gain" id="634009" flags="" value="1" parameter="6" symbol="level_out"/>
         <Controllable name="HP Active" id="634011" flags="" value="1" parameter="15" symbol="hp_active"/>
-        <Controllable name="HP Freq" id="634013" flags="" value="68.207160949707031" parameter="16" symbol="hp_freq"/>
+        <Controllable name="HP Freq" id="634013" flags="" value="46.112712860107422" parameter="16" symbol="hp_freq"/>
         <Controllable name="HP Mode" id="634015" flags="" value="1" parameter="17" symbol="hp_mode"/>
         <Controllable name="HP Q" id="634017" flags="" value="0.7070000171661377" parameter="18" symbol="hp_q"/>
         <Controllable name="LP Active" id="634019" flags="" value="1" parameter="19" symbol="lp_active"/>
@@ -8166,7 +8166,7 @@ vol was -2.4
       <Controllable name="rec-safe" id="455638" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="455636" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="6000" id="456291" name="Bass High Pick" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="456226" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="6000" id="456291" name="Bass High Pick" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="bassplucks" audio-playlist="456226" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="1927664895"/>
       <Controllable name="solo" id="456258" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="456436" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -8195,6 +8195,8 @@ vol was -2.4
         <AutomationList automation-id="phase" id="456446" interpolation-style="Discrete" state="Off"/>
         <AutomationList automation-id="monitor" id="456447" interpolation-style="Discrete" state="Off"/>
       </Automation>
+      <Comment>notes
+vol was at -20.04</Comment>
       <Pannable>
         <Controllable name="pan-azimuth" id="456426" flags="" value="0"/>
         <Controllable name="pan-width" id="456427" flags="" value="0"/>
@@ -8222,7 +8224,7 @@ vol was -2.4
         <Automation>
           <AutomationList automation-id="gain" id="456309" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="456310" flags="GainLike" value="0.095881998538970947"/>
+        <Controllable name="gaincontrol" id="456310" flags="GainLike" value="0.10006968677043915"/>
       </Processor>
       <Processor id="456395" name="Calf Equalizer 5 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer5Band" count="1" custom="0">
         <Automation>
@@ -8479,7 +8481,7 @@ vol was -2.4
       <Controllable name="rec-safe" id="456453" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="456454" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="6000" id="477319" name="Bass Low Pick" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="477361" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="6000" id="477319" name="Bass Low Pick" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="bassplucks" audio-playlist="477361" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="2598728447"/>
       <Controllable name="solo" id="477327" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="477333" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
@@ -8589,7 +8591,7 @@ vol was -2.4
         <Automation>
           <AutomationList automation-id="gain" id="477322" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="477323" flags="GainLike" value="0.10841504484415054"/>
+        <Controllable name="gaincontrol" id="477323" flags="GainLike" value="0.11315017938613892"/>
       </Processor>
       <Processor id="580442" name="Calf Equalizer 8 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -13762,13 +13764,13 @@ vol was -4.5</Comment>
           <Port symbol="g_12" value="0.44087612628936768"/>
           <Port symbol="q_12" value="0"/>
           <Port symbol="hue_12" value="0.75"/>
-          <Port symbol="ft_13" value="0"/>
+          <Port symbol="ft_13" value="7"/>
           <Port symbol="fm_13" value="0"/>
           <Port symbol="s_13" value="0"/>
           <Port symbol="xs_13" value="0"/>
           <Port symbol="xm_13" value="0"/>
-          <Port symbol="f_13" value="6300"/>
-          <Port symbol="g_13" value="1"/>
+          <Port symbol="f_13" value="6739.17529296875"/>
+          <Port symbol="g_13" value="0.53357356786727905"/>
           <Port symbol="q_13" value="0"/>
           <Port symbol="hue_13" value="0.8125"/>
           <Port symbol="ft_14" value="0"/>
@@ -13917,13 +13919,13 @@ vol was -4.5</Comment>
         <Controllable name="Gain 12" id="1341235" flags="" value="0.44087612628936768" parameter="140" symbol="g_12"/>
         <Controllable name="Quality factor 12" id="1341237" flags="" value="0" parameter="141" symbol="q_12"/>
         <Controllable name="Hue 12" id="1341239" flags="" value="0.75" parameter="142" symbol="hue_12"/>
-        <Controllable name="Filter type 13" id="1341241" flags="" value="0" parameter="144" symbol="ft_13"/>
+        <Controllable name="Filter type 13" id="1341241" flags="" value="7" parameter="144" symbol="ft_13"/>
         <Controllable name="Filter mode 13" id="1341243" flags="" value="0" parameter="145" symbol="fm_13"/>
         <Controllable name="Filter slope 13" id="1341245" flags="" value="0" parameter="146" symbol="s_13"/>
         <Controllable name="Filter solo 13" id="1341247" flags="Toggle" value="0" parameter="147" symbol="xs_13"/>
         <Controllable name="Filter mute 13" id="1341249" flags="Toggle" value="0" parameter="148" symbol="xm_13"/>
-        <Controllable name="Frequency 13" id="1341251" flags="" value="6300" parameter="149" symbol="f_13"/>
-        <Controllable name="Gain 13" id="1341253" flags="" value="1" parameter="150" symbol="g_13"/>
+        <Controllable name="Frequency 13" id="1341251" flags="" value="6739.17529296875" parameter="149" symbol="f_13"/>
+        <Controllable name="Gain 13" id="1341253" flags="" value="0.53357356786727905" parameter="150" symbol="g_13"/>
         <Controllable name="Quality factor 13" id="1341255" flags="" value="0" parameter="151" symbol="q_13"/>
         <Controllable name="Hue 13" id="1341257" flags="" value="0.8125" parameter="152" symbol="hue_13"/>
         <Controllable name="Filter type 14" id="1341259" flags="" value="0" parameter="154" symbol="ft_14"/>
@@ -44249,6 +44251,7 @@ vol was -4.5</Comment>
   </UnusedPlaylists>
   <RouteGroups>
     <RouteGroup id="1220687" rgba="2783225343" used-to-share-gain="0" name="guitars" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="39445 92606 "/>
+    <RouteGroup id="1425663" rgba="3770279167" used-to-share-gain="0" name="bassplucks" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="456291 477319 "/>
   </RouteGroups>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio">
@@ -44339,7 +44342,7 @@ vol was -4.5</Comment>
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportRevision revision="6"/>
+    <ExportRevision revision="7"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="255"/>
@@ -44355,7 +44358,7 @@ vol was -4.5</Comment>
       <ExportFormat id="20b4ab09-6452-4cb3-bd66-b921cdbd2942"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="i-can-only-miss-you-re-mix"/>
+        <Field name="label" enabled="1" value="i-can-only-miss-you-re-mix-de-ess"/>
         <Field name="session" enabled="0"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="0"/>
@@ -44464,17 +44467,21 @@ vol was -4.5</Comment>
       <Window name="PM-823583-823956" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-823583-856245" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-230852-266054" visible="0" x-off="435" y-off="0" x-size="867" y-size="713" custom-ui="1"/>
+      <Window name="P-230852-1383570" visible="0" x-off="696" y-off="0" x-size="642" y-size="457" custom-ui="1"/>
       <Window name="P-230852-266137" visible="0" x-off="443" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
       <Window name="P-230852-286277" visible="0" x-off="693" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
       <Window name="P-230852-1072350" visible="0" x-off="468" y-off="0" x-size="1172" y-size="430" custom-ui="1"/>
       <Window name="PM-230852-266054" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-230852-1383570" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-230852-266137" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-230852-286277" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-230852-1072350" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-285365-631444" visible="0" x-off="315" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
+      <Window name="P-285365-1383539" visible="0" x-off="431" y-off="0" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-285365-793918" visible="0" x-off="71" y-off="297" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="P-285365-286248" visible="0" x-off="693" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
       <Window name="PM-285365-631444" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-285365-1383539" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-285365-793918" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-285365-286248" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-890119-890287" visible="0" x-off="620" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
@@ -44581,10 +44588,6 @@ vol was -4.5</Comment>
       <Window name="P-4144-4438" visible="0" x-off="339" y-off="0" x-size="850" y-size="404" custom-ui="1"/>
       <Window name="PM-4144-4355" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-4144-4438" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-285365-1383539" visible="0" x-off="431" y-off="0" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-285365-1383539" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-230852-1383570" visible="0" x-off="0" y-off="301" x-size="642" y-size="457" custom-ui="1"/>
-      <Window name="PM-230852-1383570" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
