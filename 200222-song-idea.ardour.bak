@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="200222-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="1425664" name-counter="1" event-counter="810311" vca-counter="1">
+<Session version="6000" name="200222-song-idea" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="1509829" name-counter="1" event-counter="818111" vca-counter="1">
   <ProgramVersion created-with="Ardour 1:5.12.0-3" modified-with="Ardour 6.9.0~ds0-1build1"/>
+  <EngineHints backend="ALSA" input-device="HDA Intel PCH" output-device="HDA Intel PCH"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
     <Port name="MMC in" direction="input"/>
@@ -3874,7 +3875,7 @@
     <CompoundAssociation copy="997877" original="994856"/>
   </CompoundAssociations>
   <Selection>
-    <StripableAutomationControl stripable="455600" control="0" order="9"/>
+    <StripableAutomationControl stripable="477319" control="0" order="19"/>
   </Selection>
   <Locations>
     <Location id="255" name="session" start="1109613" end="8080258" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1690689601"/>
@@ -3896,7 +3897,6 @@
           <Connection other="MIDIBass/audio_out 1"/>
           <Connection other="MIDIchipBass 1/audio_out 1"/>
           <Connection other="alt-drum/audio_out 1"/>
-          <Connection other="back vocals/audio_out 1"/>
           <Connection other="banjo/audio_out 1"/>
           <Connection other="bass-chip-bass-midi-export 1/audio_out 1"/>
           <Connection other="bass-chip-bass-midi-export/audio_out 1"/>
@@ -3910,11 +3910,13 @@
           <Connection other="eric guitar 1/audio_out 1"/>
           <Connection other="eric guitar/audio_out 1"/>
           <Connection other="fr horn/audio_out 1"/>
+          <Connection other="hi vocals/audio_out 1"/>
           <Connection other="keys arythmic/audio_out 1"/>
           <Connection other="keys/audio_out 1"/>
           <Connection other="keys2/audio_out 1"/>
           <Connection other="loud hold 1/audio_out 1"/>
           <Connection other="loud hold/audio_out 1"/>
+          <Connection other="low vocals/audio_out 1"/>
           <Connection other="rob drums/audio_out 1"/>
           <Connection other="rob guitar/audio_out 1"/>
           <Connection other="shaker/audio_out 1"/>
@@ -3930,7 +3932,6 @@
           <Connection other="vocal riff 3 1/audio_out 1"/>
           <Connection other="vocal riff 3/audio_out 1"/>
           <Connection other="vocal riff/audio_out 1"/>
-          <Connection other="vocals/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
           <Connection other="Bass High Pick/audio_out 2"/>
@@ -3939,7 +3940,6 @@
           <Connection other="MIDIBass/audio_out 2"/>
           <Connection other="MIDIchipBass 1/audio_out 2"/>
           <Connection other="alt-drum/audio_out 2"/>
-          <Connection other="back vocals/audio_out 2"/>
           <Connection other="banjo/audio_out 2"/>
           <Connection other="bass-chip-bass-midi-export 1/audio_out 2"/>
           <Connection other="bass-chip-bass-midi-export/audio_out 2"/>
@@ -3953,11 +3953,13 @@
           <Connection other="eric guitar 1/audio_out 2"/>
           <Connection other="eric guitar/audio_out 2"/>
           <Connection other="fr horn/audio_out 2"/>
+          <Connection other="hi vocals/audio_out 2"/>
           <Connection other="keys arythmic/audio_out 2"/>
           <Connection other="keys/audio_out 2"/>
           <Connection other="keys2/audio_out 2"/>
           <Connection other="loud hold 1/audio_out 2"/>
           <Connection other="loud hold/audio_out 2"/>
+          <Connection other="low vocals/audio_out 2"/>
           <Connection other="rob drums/audio_out 2"/>
           <Connection other="rob guitar/audio_out 2"/>
           <Connection other="shaker/audio_out 2"/>
@@ -3973,7 +3975,6 @@
           <Connection other="vocal riff 3 1/audio_out 2"/>
           <Connection other="vocal riff 3/audio_out 2"/>
           <Connection other="vocal riff/audio_out 2"/>
-          <Connection other="vocals/audio_out 2"/>
         </Port>
       </IO>
       <IO name="Master" id="83" direction="Output" default-type="audio">
@@ -7045,19 +7046,19 @@ yoshimi used in the chip bank using Chip Bass</Comment>
       <Controllable name="rec-safe" id="212658" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="212659" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="6000" id="230852" name="vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="417903" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="6000" id="230852" name="low vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="417903" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3471167487"/>
       <Controllable name="solo" id="230860" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="230866" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="230868" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="vocals" id="230880" direction="Input" default-type="audio">
-        <Port type="audio" name="vocals/audio_in 1"/>
+      <IO name="low vocals" id="230880" direction="Input" default-type="audio">
+        <Port type="audio" name="low vocals/audio_in 1"/>
       </IO>
-      <IO name="vocals" id="230881" direction="Output" default-type="audio">
-        <Port type="audio" name="vocals/audio_out 1">
+      <IO name="low vocals" id="230881" direction="Output" default-type="audio">
+        <Port type="audio" name="low vocals/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="vocals/audio_out 2">
+        <Port type="audio" name="low vocals/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -7092,8 +7093,8 @@ vol was -2.4
           <AutomationList automation-id="pan-lfe" id="230878" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="230893" name="vocals" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
-      <Processor id="230893" name="vocals" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="230893" name="recorder:low vocals" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="230893" name="player:low vocals" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="1293596" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
       <Processor id="230883" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
         <Automation>
@@ -7105,7 +7106,7 @@ vol was -2.4
         <Automation>
           <AutomationList automation-id="gain" id="230855" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="230856" flags="GainLike" value="0.6453736424446106"/>
+        <Controllable name="gaincontrol" id="230856" flags="GainLike" value="0.64537382125854492"/>
       </Processor>
       <Processor id="266054" name="Calf Equalizer 8 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -7482,7 +7483,7 @@ vol was -2.4
         <Controllable name="Mix" id="1072388" flags="" value="1" parameter="31" symbol="mix"/>
       </Processor>
       <Processor id="230884" name="meter-vocals" active="1" user-latency="0" use-user-latency="0" type="meter"/>
-      <Processor id="230885" name="vocals" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="vocals" type="main-outs" role="Main">
+      <Processor id="230885" name="low vocals" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="low vocals" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
@@ -7490,19 +7491,19 @@ vol was -2.4
       <Controllable name="rec-safe" id="230890" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="230888" flags="Toggle,RealTime" value="0"/>
     </Route>
-    <Route version="6000" id="285365" name="back vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="285407" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+    <Route version="6000" id="285365" name="hi vocals" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="285407" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
       <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="2130377983"/>
       <Controllable name="solo" id="285373" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="285379" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="285381" flags="Toggle" value="0" solo-safe="0"/>
-      <IO name="back vocals" id="285393" direction="Input" default-type="audio">
-        <Port type="audio" name="back vocals/audio_in 1"/>
+      <IO name="hi vocals" id="285393" direction="Input" default-type="audio">
+        <Port type="audio" name="hi vocals/audio_in 1"/>
       </IO>
-      <IO name="back vocals" id="285394" direction="Output" default-type="audio">
-        <Port type="audio" name="back vocals/audio_out 1">
+      <IO name="hi vocals" id="285394" direction="Output" default-type="audio">
+        <Port type="audio" name="hi vocals/audio_out 1">
           <Connection other="Master/audio_in 1"/>
         </Port>
-        <Port type="audio" name="back vocals/audio_out 2">
+        <Port type="audio" name="hi vocals/audio_out 2">
           <Connection other="Master/audio_in 2"/>
         </Port>
       </IO>
@@ -7536,8 +7537,8 @@ vol was -2.4
           <AutomationList automation-id="pan-lfe" id="285391" interpolation-style="Linear" state="Off"/>
         </Automation>
       </Pannable>
-      <Processor id="285406" name="back vocals" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
-      <Processor id="285406" name="back vocals" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="285406" name="recorder:hi vocals" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="285406" name="player:hi vocals" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
       <Processor id="1293812" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
       <Processor id="285396" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
         <Automation>
@@ -7549,7 +7550,7 @@ vol was -2.4
         <Automation>
           <AutomationList automation-id="gain" id="285368" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="285369" flags="GainLike" value="1.0570595264434814"/>
+        <Controllable name="gaincontrol" id="285369" flags="GainLike" value="1.1848152875900269"/>
       </Processor>
       <Processor id="631444" name="Calf Equalizer 8 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -7717,12 +7718,12 @@ vol was -2.4
         </OutputMap-0>
         <ThruMap/>
         <ladspa last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
-          <Port number="0" value="-29.587627410888672"/>
+          <Port number="0" value="-27.587627410888672"/>
           <Port number="1" value="8639.173828125"/>
           <Port number="2" value="0"/>
           <Port number="3" value="0"/>
         </ladspa>
-        <Controllable name="Threshold Level [dB]" id="1383541" flags="" value="-29.587627410888672" parameter="0"/>
+        <Controllable name="Threshold Level [dB]" id="1383541" flags="" value="-27.587627410888672" parameter="0"/>
         <Controllable name="Frequency [Hz]" id="1383543" flags="" value="8639.173828125" parameter="1"/>
         <Controllable name="Sidechain Filter" id="1383545" flags="" value="0" parameter="2"/>
         <Controllable name="Monitor" id="1383547" flags="" value="0" parameter="3"/>
@@ -7845,7 +7846,7 @@ vol was -2.4
         <Controllable name="Output Gain" id="286272" flags="" value="1" parameter="18" symbol="level_out"/>
       </Processor>
       <Processor id="285397" name="meter-back vocals" active="1" user-latency="0" use-user-latency="0" type="meter"/>
-      <Processor id="285398" name="back vocals" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="back vocals" type="main-outs" role="Main">
+      <Processor id="285398" name="hi vocals" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="hi vocals" type="main-outs" role="Main">
         <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
       </Processor>
       <Slavable/>
@@ -7909,7 +7910,7 @@ vol was -2.4
         <Automation>
           <AutomationList automation-id="gain" id="455603" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="455604" flags="GainLike" value="0.37438184022903442"/>
+        <Controllable name="gaincontrol" id="455604" flags="GainLike" value="0.31684666872024536"/>
       </Processor>
       <Processor id="455702" name="Calf Equalizer 5 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer5Band" count="1" custom="0">
         <Automation>
@@ -8224,7 +8225,7 @@ vol was at -20.04</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="456309" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="456310" flags="GainLike" value="0.10006968677043915"/>
+        <Controllable name="gaincontrol" id="456310" flags="GainLike" value="0.076640203595161438"/>
       </Processor>
       <Processor id="456395" name="Calf Equalizer 5 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer5Band" count="1" custom="0">
         <Automation>
@@ -8591,7 +8592,7 @@ vol was at -20.04</Comment>
         <Automation>
           <AutomationList automation-id="gain" id="477322" interpolation-style="Linear" state="Off"/>
         </Automation>
-        <Controllable name="gaincontrol" id="477323" flags="GainLike" value="0.11315017938613892"/>
+        <Controllable name="gaincontrol" id="477323" flags="GainLike" value="0.14298088848590851"/>
       </Processor>
       <Processor id="580442" name="Calf Equalizer 8 Band" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://calf.sourceforge.net/plugins/Equalizer8Band" count="1" custom="0">
         <Automation>
@@ -13724,8 +13725,8 @@ vol was -4.5</Comment>
           <Port symbol="s_8" value="0"/>
           <Port symbol="xs_8" value="0"/>
           <Port symbol="xm_8" value="0"/>
-          <Port symbol="f_8" value="630"/>
-          <Port symbol="g_8" value="1"/>
+          <Port symbol="f_8" value="459.8922119140625"/>
+          <Port symbol="g_8" value="1.4764156341552734"/>
           <Port symbol="q_8" value="0"/>
           <Port symbol="hue_8" value="0.5"/>
           <Port symbol="ft_9" value="0"/>
@@ -13733,8 +13734,8 @@ vol was -4.5</Comment>
           <Port symbol="s_9" value="0"/>
           <Port symbol="xs_9" value="0"/>
           <Port symbol="xm_9" value="0"/>
-          <Port symbol="f_9" value="1000"/>
-          <Port symbol="g_9" value="1"/>
+          <Port symbol="f_9" value="809.831298828125"/>
+          <Port symbol="g_9" value="1.3854233026504517"/>
           <Port symbol="q_9" value="0"/>
           <Port symbol="hue_9" value="0.5625"/>
           <Port symbol="ft_10" value="0"/>
@@ -13742,8 +13743,8 @@ vol was -4.5</Comment>
           <Port symbol="s_10" value="0"/>
           <Port symbol="xs_10" value="0"/>
           <Port symbol="xm_10" value="0"/>
-          <Port symbol="f_10" value="1600"/>
-          <Port symbol="g_10" value="1"/>
+          <Port symbol="f_10" value="1443.316162109375"/>
+          <Port symbol="g_10" value="1.5733834505081177"/>
           <Port symbol="q_10" value="0"/>
           <Port symbol="hue_10" value="0.625"/>
           <Port symbol="ft_11" value="0"/>
@@ -13879,8 +13880,8 @@ vol was -4.5</Comment>
         <Controllable name="Filter slope 8" id="1341155" flags="" value="0" parameter="96" symbol="s_8"/>
         <Controllable name="Filter solo 8" id="1341157" flags="Toggle" value="0" parameter="97" symbol="xs_8"/>
         <Controllable name="Filter mute 8" id="1341159" flags="Toggle" value="0" parameter="98" symbol="xm_8"/>
-        <Controllable name="Frequency 8" id="1341161" flags="" value="630" parameter="99" symbol="f_8"/>
-        <Controllable name="Gain 8" id="1341163" flags="" value="1" parameter="100" symbol="g_8"/>
+        <Controllable name="Frequency 8" id="1341161" flags="" value="459.8922119140625" parameter="99" symbol="f_8"/>
+        <Controllable name="Gain 8" id="1341163" flags="" value="1.4764156341552734" parameter="100" symbol="g_8"/>
         <Controllable name="Quality factor 8" id="1341165" flags="" value="0" parameter="101" symbol="q_8"/>
         <Controllable name="Hue 8" id="1341167" flags="" value="0.5" parameter="102" symbol="hue_8"/>
         <Controllable name="Filter type 9" id="1341169" flags="" value="0" parameter="104" symbol="ft_9"/>
@@ -13888,8 +13889,8 @@ vol was -4.5</Comment>
         <Controllable name="Filter slope 9" id="1341173" flags="" value="0" parameter="106" symbol="s_9"/>
         <Controllable name="Filter solo 9" id="1341175" flags="Toggle" value="0" parameter="107" symbol="xs_9"/>
         <Controllable name="Filter mute 9" id="1341177" flags="Toggle" value="0" parameter="108" symbol="xm_9"/>
-        <Controllable name="Frequency 9" id="1341179" flags="" value="1000" parameter="109" symbol="f_9"/>
-        <Controllable name="Gain 9" id="1341181" flags="" value="1" parameter="110" symbol="g_9"/>
+        <Controllable name="Frequency 9" id="1341179" flags="" value="809.831298828125" parameter="109" symbol="f_9"/>
+        <Controllable name="Gain 9" id="1341181" flags="" value="1.3854233026504517" parameter="110" symbol="g_9"/>
         <Controllable name="Quality factor 9" id="1341183" flags="" value="0" parameter="111" symbol="q_9"/>
         <Controllable name="Hue 9" id="1341185" flags="" value="0.5625" parameter="112" symbol="hue_9"/>
         <Controllable name="Filter type 10" id="1341187" flags="" value="0" parameter="114" symbol="ft_10"/>
@@ -13897,8 +13898,8 @@ vol was -4.5</Comment>
         <Controllable name="Filter slope 10" id="1341191" flags="" value="0" parameter="116" symbol="s_10"/>
         <Controllable name="Filter solo 10" id="1341193" flags="Toggle" value="0" parameter="117" symbol="xs_10"/>
         <Controllable name="Filter mute 10" id="1341195" flags="Toggle" value="0" parameter="118" symbol="xm_10"/>
-        <Controllable name="Frequency 10" id="1341197" flags="" value="1600" parameter="119" symbol="f_10"/>
-        <Controllable name="Gain 10" id="1341199" flags="" value="1" parameter="120" symbol="g_10"/>
+        <Controllable name="Frequency 10" id="1341197" flags="" value="1443.316162109375" parameter="119" symbol="f_10"/>
+        <Controllable name="Gain 10" id="1341199" flags="" value="1.5733834505081177" parameter="120" symbol="g_10"/>
         <Controllable name="Quality factor 10" id="1341201" flags="" value="0" parameter="121" symbol="q_10"/>
         <Controllable name="Hue 10" id="1341203" flags="" value="0.625" parameter="122" symbol="hue_10"/>
         <Controllable name="Filter type 11" id="1341205" flags="" value="0" parameter="124" symbol="ft_11"/>
@@ -44251,7 +44252,7 @@ vol was -4.5</Comment>
   </UnusedPlaylists>
   <RouteGroups>
     <RouteGroup id="1220687" rgba="2783225343" used-to-share-gain="0" name="guitars" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="39445 92606 "/>
-    <RouteGroup id="1425663" rgba="3770279167" used-to-share-gain="0" name="bassplucks" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="456291 477319 "/>
+    <RouteGroup id="1425663" rgba="3770279167" used-to-share-gain="0" name="bassplucks" hidden="0" active="0" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="456291 477319 "/>
   </RouteGroups>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio">
@@ -44342,7 +44343,7 @@ vol was -4.5</Comment>
         <Field name="date" enabled="1" value="D_BEShortY"/>
       </ExportFilename>
     </RangeExportProfile>
-    <ExportRevision revision="7"/>
+    <ExportRevision revision="8"/>
     <ExportProfile>
       <ExportTimespan format="Timecode">
         <Range id="255"/>
@@ -44358,7 +44359,7 @@ vol was -4.5</Comment>
       <ExportFormat id="20b4ab09-6452-4cb3-bd66-b921cdbd2942"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="i-can-only-miss-you-re-mix-de-ess"/>
+        <Field name="label" enabled="1" value="i-can-only-miss-you-re-mix-bass-n-ride"/>
         <Field name="session" enabled="0"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="0"/>
@@ -44375,7 +44376,7 @@ vol was -4.5</Comment>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="652" y-size="503"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="0" x-off="651" y-off="325" x-size="618" y-size="430"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -44477,7 +44478,7 @@ vol was -4.5</Comment>
       <Window name="PM-230852-286277" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-230852-1072350" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-285365-631444" visible="0" x-off="315" y-off="0" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="P-285365-1383539" visible="0" x-off="431" y-off="0" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-285365-1383539" visible="0" x-off="431" y-off="0" x-size="642" y-size="457" custom-ui="1"/>
       <Window name="P-285365-793918" visible="0" x-off="71" y-off="297" x-size="847" y-size="404" custom-ui="1"/>
       <Window name="P-285365-286248" visible="0" x-off="693" y-off="0" x-size="806" y-size="334" custom-ui="1"/>
       <Window name="PM-285365-631444" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
